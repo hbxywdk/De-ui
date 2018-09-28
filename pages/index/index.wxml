@@ -1,0 +1,32 @@
+<view>
+
+  <de-label title="基础">
+    <de-list-group>
+      <de-list text="Button 按钮"></de-list>
+      <de-list text="Icon 图标"></de-list>
+    </de-list-group>
+  </de-label>
+
+  <de-label title="布局" fTitle="布局说明文字">
+    <de-list-group>
+      <de-list text="Layout 栅格布局"></de-list>
+      <de-list text="Title 标题"></de-list>
+      <de-list text="Label 标签"></de-list>
+      <de-list text="List 列表" bindtap="go" data-link="/pages/Layout/list/list"></de-list>
+    </de-list-group>
+  </de-label>
+
+  <de-label title="表单" fTitle="表单说明文字">
+    <de-list-group>
+      <de-list text="Input 输入框"></de-list>
+    </de-list-group>
+  </de-label>
+  
+  <de-label title="功能" fTitle="表单说明文字">
+    <de-list-group>
+      <de-list text="Selector 选择器" bindtap="go" data-link="/pages/Function/selector/selector"></de-list>
+      <de-list text="Scroller 滚动区域" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
+    </de-list-group>
+  </de-label>
+
+</view>

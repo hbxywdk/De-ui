@@ -1,0 +1,33 @@
+<view class='warp-options'>
+  <!-- 标题 -->
+  <view class='flex-center title-box' bindtap='switchOptions'>
+    <view style='color: {{ openStatus || selectItem ? "red" : "#888" }};'>{{ optionsSet.title }}</view>
+    <image 
+      wx:if="{{ !openStatus && !selectItem }}" 
+      mode='aspectFill' 
+      class="arrow" 
+      src="../../assets/img/arrow.png"
+    >
+    </image>
+    <image 
+      wx:if="{{ openStatus || selectItem }}" 
+      mode='aspectFill' 
+      class="arrow" 
+      src="../../assets/img/active-arrow.png"
+    >
+    </image>
+  </view>
+  <!-- 选项 -->
+  <view wx:if="{{ nowOption === optionsSet.name }}" class='select-options' style='top: {{ heightSetting }}rpx;'>
+    <view class='option-item' wx:for="{{ optionsSet.options }}" wx:key="{{ index }}">
+      <view
+        class='{{ item.disable ? "item-disable" : ""  }} {{ selectItem === item.value ? "item-select" : "" }}'
+        bindtap='optionSelect' 
+        data-value='{{ item.value }}' 
+        data-disable='{{ item.disable }}'
+      >
+        {{ item.label }}
+      </view>
+    </view>
+  </view>
+</view>

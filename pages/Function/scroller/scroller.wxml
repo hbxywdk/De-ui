@@ -1,0 +1,12 @@
+<de-scroller 
+  style="display:{{ hasData ? 'block' : 'none' }};"
+  scroll-height="{{ scrollerHeight }}" 
+  refreshContrast="{{ refreshing }}" 
+  loadingMoreContrast="{{ loadingMore }}" 
+  nomore="{{ nomore }}" 
+  bindpulldownrefresh="pullDownRefresh" 
+  bindloadmore="loadMoreRenMai" 
+  nomoreText="没有更多了"
+>
+  <view class='demo-lists' wx:for="{{ renMaiLists }}" wx:key="{{ index }}">{{ item }}</view>
+</de-scroller>

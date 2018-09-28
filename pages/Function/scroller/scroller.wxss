@@ -1,0 +1,15 @@
+.options-box{
+  width: 100%;
+  height: 80rpx;
+  border-bottom: 1rpx solid #efefef;
+  position: relative;
+  /* 下拉选项是根据，最外层包裹view定位的，必须给上相对定位 */
+}
+.options-box>view{
+  flex: 1;
+}
+.demo-lists{
+  height: 150rpx;
+  background: #ccc;
+  border-bottom: 6rpx solid #fff;
+}

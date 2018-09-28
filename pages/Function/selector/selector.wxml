@@ -1,0 +1,24 @@
+<view style="line-height: 80rpx;height: 80rpx;background: #eee;text-align: center;font-size: 28rpx;">搜索</view>
+<view class='flex-center options-box'>
+  <view>
+    <de-selector 
+      optionsSet="{{ priceOptions }}" 
+      nowOption="{{ nowOption }}" 
+      bind:changeTarget="changeTarget"
+      bind:selectOption="commonSelect"
+    >
+    </de-selector>
+  </view>
+  <view>
+    <de-selector 
+      optionsSet="{{ sortOptions }}" 
+      nowOption="{{ nowOption }}" 
+      bind:changeTarget="changeTarget"
+      bind:selectOption="commonSelect"
+    >
+    </de-selector>
+  </view>
+  <view>
+  </view>
+</view>
+<view class='goods-lists' wx:for="{{ 10 }}" wx:key="{{ index }}">{{ index }}</view>

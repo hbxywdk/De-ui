@@ -1,0 +1,54 @@
+<scroll-view 
+  class="scroll-view {{pullDownStatus === 3 ? 'refresh' : ''}} {{pullDownStatus === 4 ? 'finish' : ''}}" 
+  scroll-y 
+  style="height: {{scrollHeight + 'px'}};"
+  scroll-into-view="{{ viewName }}" 
+  scroll-with-animation="true"
+  upper-threshold="{{ 0 }}" 
+  bindscroll="onScroll" 
+  bindtouchstart="onTouchStart"
+  bindtouchend="onTouchEnd" 
+  bindscrolltolower="onLoadmore" 
+  bindscrolltoupper="onRefresh" 
+>
+  <!-- 下拉动作 -->
+  <view id="pulldown" class="pulldown">
+    <block wx:if="{{pullDownStatus === 0 || pullDownStatus === 1 || pullDownStatus === 2 || pullDownStatus === 4 }}">
+      <image class="loading" src="../../assets/img/loading.png" />
+    </block>
+
+    <block wx:if="{{pullDownStatus === 3}}">
+     <image class="loading loading-animated" src="../../assets/img/loading.png" />
+    </block>
+
+  </view>
+  <!-- 内容区插入 -->
+  <view id="scroller-wapper" class="scroller-wapper">
+    <slot />
+  </view>
+  <!-- 加载动作 -->
+  <view class="loadmore">
+
+    <block wx:if="{{nomore}}">
+      <view>{{nomoreText}}</view>
+    </block>
+    <block wx:else>
+      <block wx:if="{{pullUpStatus === 2 || pullUpStatus === 4}}">
+        <image class="loading" src="../../assets/img/loading.png" />
+      </block>
+
+      <!-- 旋转状态中 -->
+      <block wx:if="{{pullUpStatus === 3}}">
+        <image class="loading loading-animated" src="../../assets/img/loading.png" />
+      </block>
+
+    </block>
+  </view>
+  <!-- 
+    撑高度块：
+    若，内容高度，小于scroll-view高度，不会有滚动条产生，
+    组件的下拉刷新loading是不会滚动到顶部隐藏的，
+    fill-box撑够高度，让loading隐藏
+   -->
+  <view class="fill-box" style="height:{{fillHeight + 'px'}}"></view>
+</scroll-view>

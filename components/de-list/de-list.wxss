@@ -1,0 +1,54 @@
+@import '/app.wxss';
+
+.de-list{
+  background: #fff;
+  height: 90rpx;
+  padding: 10rpx 30rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
+}
+.de-list-left, .de-list-right{
+  height: 100%;
+}
+.de-list-left image{
+  width: 58rpx;
+  height: 58rpx;
+  margin-right: 15rpx;
+}
+.de-list-right{
+  color: #aaa;
+  font-size: 26rpx;
+}
+.arrow-right{
+  margin-left: 10rpx;
+  height: 100%;
+  width: 40rpx;
+  position: relative;
+}
+.arrow-right:after{
+  content: " ";
+  display: inline-block;
+  height: 12rpx;
+  width: 12rpx;
+  border-width: 4rpx 4rpx 0 0;
+  border-color: #C8C8CD;
+  border-style: solid;
+  -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  top: -4rpx;
+  position: absolute;
+  top: 50%;
+  margin-top: -8rpx;
+  right: 4rpx;
+}
+.red-count{
+  width: 36rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background: #ff2f2f;
+  font-size: 22rpx;
+  margin-right: 10rpx;
+}

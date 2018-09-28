@@ -1,0 +1,21 @@
+<view 
+  class='flex-between de-list'
+  style='border-top: {{ isFirstOne ? "none" : "1px solid #e5e5e5" }};border-bottom: {{ isLastOne ? "none" : "1px solid #e5e5e5" }};'
+>
+  <view class='flex-center de-list-left'>
+    <!-- 左侧图片 -->
+    <view wx:if="{{ img }}">
+      <image src='{{ img }}'></image>
+    </view>
+    <!-- 左侧文字 -->
+    <view wx:if="{{ text }}">{{ text }}</view>
+  </view>
+  <view class='flex-center de-list-right'>
+    <!-- 消息数量 -->
+    <view class='red-count' wx:if="{{ count }}">{{ count }}</view>
+    <!-- 右侧文字 -->
+    <view v-if="{{ fText }}">{{ fText }}</view>
+    <!-- 右侧箭头 -->
+    <view class='arrow-right'></view>
+  </view>
+</view>

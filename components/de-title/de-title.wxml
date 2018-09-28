@@ -1,0 +1,1 @@
+<view class="de-title">{{ title }}</view>

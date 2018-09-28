@@ -1,0 +1,17 @@
+@import '/app.wxss';
+
+.de-title{
+  padding: 0 20rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.de-ftitle{
+  color: #C7C7CC;
+}
+.de-slot{
+  background: #fff;
+}
+.de-slot-border{
+  border-top: 1rpx solid #e9eaec;
+  border-bottom: 1rpx solid #e9eaec;
+}

@@ -1,0 +1,7 @@
+.de-title{
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 0 15rpx;
+  font-size: 30rpx;
+  margin-top: 25rpx;
+}

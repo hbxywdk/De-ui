@@ -1,0 +1,35 @@
+@import '/app.wxss';
+
+.title-box{
+  height: 100%;
+  text-align: center;
+  font-size: 28rpx;
+  color: #777;
+}
+
+.arrow{
+  width: 14rpx;
+  height: 8rpx;
+  vertical-align:middle;
+  margin-left: 10rpx;
+}
+.select-options{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: 100;
+  text-align: center;
+  background: #fff;
+  padding: 20rpx 0;
+}
+.option-item{
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+}
+.item-disable{
+  color: #ccc;
+}
+.item-select{
+  color: red;
+}

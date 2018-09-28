@@ -1,0 +1,66 @@
+.default-scroller{
+  background-color: #dd2534;
+}
+.scroller-wapper{
+  background-color: #fff;
+}
+.fill-box{
+  background-color: transparent;
+}
+
+.pullDownRefresh{
+  height: 30px;
+  background-color: transparent;
+}
+
+.scroll-view.refresh {
+  transform: translateY(0);
+}
+
+.scroll-view {
+}
+
+.scroll-view.refresh {
+  transform: translateY(0);
+}
+
+.pulldown {
+  height: 44px;
+  width: 100%;
+  line-height: 64px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.pulldown text {
+  color: #222;
+}
+
+.loadmore {
+  height: 44px;
+  width: 100%;
+  line-height: 64px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.loadmore view {
+  font-size: 28rpx;
+  color: #989898;
+  line-height: 64px;
+}
+
+.loading{
+  width: 30px;
+  height: 30px;
+}
+
+.loading-animated{
+  animation: rotating 1.2s linear infinite
+}
+
+@keyframes rotating{
+  from{transform:rotate(0)}
+  to{transform:rotate(360deg)}
+}
+

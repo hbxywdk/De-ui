@@ -1,0 +1,12 @@
+<view>
+  <view 
+    class='flex-between de-title' 
+    style='background: {{ bgColor }};font-size: {{ size }};color: {{ color }};'
+  >
+    <view>{{ title }}</view>
+    <view class='de-ftitle' wx:if="{{ fTitle }}">{{ fTitle }}</view>
+  </view>
+  <view class='de-slot {{ needBorder ? "de-slot-border" : "" }}'>
+    <slot/>
+  </view>
+</view>

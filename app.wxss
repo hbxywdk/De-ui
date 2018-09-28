@@ -1,0 +1,61 @@
+/* 公用css app.wxss的内容默认全局Page引入（Components需手动引入） */
+
+/* 两端对齐*/
+.flex-between{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+/* 居中 */
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* 居左 */
+.flex-start{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  flex-wrap:wrap;
+}
+
+/* 居右 */
+.flex-end{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+/* 垂直 */
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+/* 移除按钮的默认样式 */
+.remove-btn-style{
+  outline:none;
+  border:none;
+  list-style: none;
+  border-radius:0;
+}
+button.remove-btn-style:after{
+  outline:none;
+  border:none;
+  list-style: none;
+}
+
+/* 单行文字溢出显示省略号 */
+.text-dot{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

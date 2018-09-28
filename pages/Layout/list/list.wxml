@@ -1,0 +1,24 @@
+<de-title title="基本使用"></de-title>
+<de-list text="List 文字"></de-list>
+
+<de-title title="带有副标题"></de-title>
+<de-list text="左侧文字"  fText="说明文字"></de-list>
+
+<de-title title="带有红点提示"></de-title>
+<de-list text="左侧文字" count="1"></de-list>
+
+<de-title title="带有副标题与红点提示"></de-title>
+<de-list text="左侧文字"  fText="说明文字" count="1"></de-list>
+
+<de-title title="所有配置"></de-title>
+<de-list img="{{ src }}" text="左侧文字"  fText="说明文字" count="1"></de-list>
+
+<de-title title="成组使用"></de-title>
+<view class='group'>
+  <de-list-group>
+    <de-list text="List 列表"></de-list>
+    <de-list text="List 列表"></de-list>
+    <de-list text="List 列表"></de-list>
+    <de-list text="List 列表"></de-list>
+  </de-list-group>
+</view>
