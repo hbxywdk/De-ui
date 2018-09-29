@@ -2,8 +2,11 @@
   "pages": [
     "pages/index/index",
     "pages/Layout/list/list",
+    "pages/Layout/flex/flex",
+    "pages/Layout/title/title",
     "pages/Function/selector/selector",
-    "pages/Function/scroller/scroller"
+    "pages/Function/scroller/scroller",
+    "pages/Layout/label/label"
   ],
   "window": {
     "backgroundTextStyle": "light",

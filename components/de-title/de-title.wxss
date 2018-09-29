@@ -1,7 +1,19 @@
 .de-title{
   height: 80rpx;
   line-height: 80rpx;
-  padding: 0 15rpx;
+  padding: 0 35rpx;
   font-size: 30rpx;
   margin-top: 25rpx;
+  position: relative;
+}
+.de-title:after{
+  content: "";
+  background: #2ccaf4;
+  height: 28rpx;
+  width: 6rpx;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 20rpx;
+  margin-top: -14rpx;
 }

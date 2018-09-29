@@ -59,3 +59,9 @@ button.remove-btn-style:after{
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+.base-bg-color{
+  background: #2ccaf4;
+}
+.light-bg-color{
+  background: #31daf9;
+}

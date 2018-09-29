@@ -9,9 +9,9 @@
 
   <de-label title="布局" fTitle="布局说明文字">
     <de-list-group>
-      <de-list text="Layout 栅格布局"></de-list>
-      <de-list text="Title 标题"></de-list>
-      <de-list text="Label 标签"></de-list>
+      <de-list text="Layout 栅格布局" bindtap="go" data-link="/pages/Layout/flex/flex"></de-list>
+      <de-list text="Title 标题" bindtap="go" data-link="/pages/Layout/title/title"></de-list>
+      <de-list text="Label 标签" bindtap="go" data-link="/pages/Layout/label/label"></de-list>
       <de-list text="List 列表" bindtap="go" data-link="/pages/Layout/list/list"></de-list>
     </de-list-group>
   </de-label>

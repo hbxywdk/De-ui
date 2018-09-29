@@ -1,0 +1,7 @@
+.demo-style{
+  margin-bottom: 30rpx;
+  font-size: 28rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 60rpx;
+}

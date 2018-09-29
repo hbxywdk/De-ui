@@ -1,0 +1,12 @@
+<de-label title="label">
+  <de-list-group>
+    <de-list text="内容1"></de-list>
+    <de-list text="内容2"></de-list>
+  </de-list-group>
+</de-label>
+<de-label title="有副标题的label" fTitle="这里可以放置副标题">
+  <de-list-group>
+    <de-list text="内容1"></de-list>
+    <de-list text="内容2"></de-list>
+  </de-list-group>
+</de-label>

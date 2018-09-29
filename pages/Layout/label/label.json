@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "Label",
+  "usingComponents": {
+    "de-label": "/components/de-label/de-label",
+    "de-list-group": "/components/de-list-group/de-list-group",
+    "de-list": "/components/de-list/de-list"
+  }
+}

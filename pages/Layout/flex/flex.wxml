@@ -1,0 +1,46 @@
+<de-title title="基本使用"></de-title>
+<view class="demo-style">
+  <de-row>
+    <de-col span="6"><view class='base-bg-color'>span = 6</view></de-col>
+    <de-col span="6"><view class='light-bg-color'>span = 6</view></de-col>
+    <de-col span="6"><view class='base-bg-color'>span = 6</view></de-col>
+    <de-col span="6"><view class='light-bg-color'>span = 6</view></de-col>
+  </de-row>
+</view>
+<view class="demo-style">
+  <de-row>
+    <de-col span="8"><view class='base-bg-color'>span = 8</view></de-col>
+    <de-col span="8"><view class='light-bg-color'>span = 8</view></de-col>
+    <de-col span="8"><view class='base-bg-color'>span = 8</view></de-col>
+  </de-row>
+</view>
+<view class="demo-style">
+  <de-row>
+    <de-col span="12"><view class='base-bg-color'>span = 12</view></de-col>
+    <de-col span="12"><view class='light-bg-color'>span = 12</view></de-col>
+  </de-row>
+</view>
+<view class="demo-style">
+  <de-row>
+    <de-col span="24"><view class='base-bg-color'>span = 24</view></de-col>
+  </de-row>
+</view>
+<de-title title="偏移"></de-title>
+<view class="demo-style">
+  <de-row>
+    <de-col span="6" offset="6"><view class='base-bg-color'>offset="6"</view></de-col>
+    <de-col span="6" offset="6"><view class='light-bg-color'>offset="6"</view></de-col>
+  </de-row>
+</view>
+<view class="demo-style">
+  <de-row>
+    <de-col span="6" offset="12"><view class='base-bg-color'>offset="12"</view></de-col>
+    <de-col span="6"><view class='light-bg-color'>offset="0"</view></de-col>
+  </de-row>
+</view>
+<view class="demo-style">
+  <de-row>
+    <de-col span="8" offset="0"><view class='base-bg-color'>offset="0"</view></de-col>
+    <de-col span="8" offset="8"><view class='light-bg-color'>offset="8"</view></de-col>
+  </de-row>
+</view>

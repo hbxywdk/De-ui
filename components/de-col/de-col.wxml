@@ -1,0 +1,3 @@
+<view class='de-col {{ span ? "de-col-span-" + span : "" }} {{ offset ? "de-col-offset-" + offset : "" }}'>
+  <slot></slot>
+</view>
