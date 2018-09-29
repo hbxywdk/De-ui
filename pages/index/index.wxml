@@ -2,7 +2,7 @@
 
   <de-label title="基础">
     <de-list-group>
-      <de-list text="Button 按钮"></de-list>
+      <de-list text="Button 按钮" bindtap="go" data-link="/pages/Base/button/button"></de-list>
       <de-list text="Icon 图标"></de-list>
     </de-list-group>
   </de-label>

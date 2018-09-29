@@ -6,7 +6,8 @@
     "pages/Layout/title/title",
     "pages/Function/selector/selector",
     "pages/Function/scroller/scroller",
-    "pages/Layout/label/label"
+    "pages/Layout/label/label",
+    "pages/Base/button/button"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,35 @@
+<de-title title="基本"></de-title>
+<view class='demo-btn'>
+  <de-button type='success' bind:click="click">success</de-button>
+</view>
+<view class='demo-btn'>
+  <de-button type='warning' bind:click="click">warning</de-button>
+</view>
+<view class='demo-btn'>
+  <de-button type='error' bind:click="click">error</de-button>
+</view>
+
+<de-title title="禁用"></de-title>
+<de-button type='success' disabled  bind:click="click">disabled</de-button>
+<view class='demo-btn'></view>
+
+<de-title title="加载"></de-title>
+<de-button type='success' loading  bind:click="click">disabled</de-button>
+<view class='demo-btn'></view>
+
+<de-title title="微信开放能力"></de-title>
+<view class='demo-btn'>
+  <de-button open-type="contact" bind:bindContact="contact">客服会话</de-button>
+</view>
+<view class='demo-btn'>
+  <de-button open-type="getPhoneNumber" bind:bindGetPhoneNumber="getPhoneNumber">获取手机</de-button>
+</view>
+<view class='demo-btn'>
+  <de-button open-type="getUserInfo" bind:bindGetUserinfo="getUserInfo">用户信息</de-button>
+</view>
+<view class='demo-btn'>
+  <de-button open-type="openSetting" bind:bindOpenSetting="openSetting">授权设置</de-button>
+</view>
+<view class='demo-btn'>
+  <de-button open-type="share">分享</de-button>
+</view>

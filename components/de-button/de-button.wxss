@@ -1,0 +1,26 @@
+button{
+  color: #fff;
+}
+button:after{
+  outline:none;
+  border:none;
+  list-style: none;
+}
+.de-button-success{
+  color: #fff;
+  background: #2ccaf4;
+}
+.de-button-warning{
+  color: #fff;
+  background: #f92;
+}
+.de-button-error{
+  color: #fff;
+  background: #ed3f1f;
+}
+.de-button-hover{
+  opacity: 0.9;
+}
+.de-button-disabled{
+  color: #888;
+}

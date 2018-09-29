@@ -1,0 +1,17 @@
+<button
+  style='{{ bgColor ? "background:" +  bgColor + ";" : "" }}'
+  class='{{ type ? "de-button-" + type : "" }} {{ disabled ? "de-button-disabled" : "" }}'
+  size="{{ size }}"
+  disabled="{{ disabled }}"
+  loading="{{ loading }}"
+  hover-class="de-button-hover"
+  open-type='{{ openType }}'
+  bindtap="bindTap"
+  bindcontact="contact"
+  bindgetuserinfo="getUserinfo"
+  bindgetphonenumber="getPhoneNumber"
+  bindopensetting="openSetting"
+  binderror="error"
+>
+  <slot></slot>
+</button>
