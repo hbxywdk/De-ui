@@ -32,6 +32,7 @@
   <de-label title="其他">
     <de-list-group>
       <de-list text="Loading 加载" bindtap="go" data-link="/pages/Other/loading/loading"></de-list>
+      <de-list text="Image 图片" bindtap="go" data-link="/pages/Other/image/image"></de-list>
     </de-list-group>
   </de-label>
 </view>

@@ -1,0 +1,39 @@
+<!-- 
+  type1 纯输入框
+  type2 lable + 输入框
+  type3 输入框 + 按钮
+  type4 lable + 输入框 + 按钮
+  -->
+<view>
+  <view class='input-box flex-between {{ bTop ? "b-top" : "" }} {{ bBottom ? "b-bottom" : "" }}' wx:if="{{ kindOfType !== 'textarea' }}">
+    <view class="label-box" wx:if="{{ kindOfType !== 'type1' && kindOfType !== 'type3' }}">{{ labelText }}<text wx:if="{{ isRequired }}"> *</text>
+    </view>
+    <view class="text-input-box">
+      <input 
+        type="text" 
+        value="{{ value }}" 
+        placeholder="{{ placeholder }}" 
+        maxlength="{{ maxLength }}" 
+        cursor-spacing="{{cursorSpacing}}"
+        bindinput="textInput">
+      </input>
+
+    </view>
+    <view class="button-box" wx:if="{{ kindOfType === 'type3' || kindOfType === 'type4' }}" bindtap="btnClick">
+      {{ buttonText }}
+    </view>
+  </view>
+  <view wx:if="{{ kindOfType === 'textarea' }}" class='input-box flex-start {{ bTop ? "b-top" : "" }} {{ bBottom ? "b-bottom" : "" }}' style='align-items: normal;'>
+    <view class="label-box">
+      {{ labelText }}<text wx:if="{{ isRequired }}"> *</text>
+    </view>
+    <textarea 
+      class='textarea {{ platform === "ios" ? "isIos" : "notIos" }}'
+      value="{{ value }}" 
+      maxlength="200"
+      cursor-spacing="70"
+      placeholder="{{ placeholder }}" 
+      bindinput="textInput"
+    />
+  </view>
+</view>

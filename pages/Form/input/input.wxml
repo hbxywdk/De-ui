@@ -1,2 +1,9 @@
-<!--pages/Form/input/input.wxml-->
-<text>pages/Form/input/input.wxml</text>
+<de-title title="基本使用"></de-title>
+<de-input 
+  kindOfType="type1" 
+  placeholder='请输入名字'
+  value="{{ info.name }}"
+  bTop="{{ false }}"
+  bind:input="nameInput"
+  >
+</de-input>

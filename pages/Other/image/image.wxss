@@ -1,0 +1,5 @@
+.demo-image{
+  width: 400rpx;
+  height: 240rpx;
+  padding-left: 20rpx;
+}

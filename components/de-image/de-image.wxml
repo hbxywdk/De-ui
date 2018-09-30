@@ -1,0 +1,4 @@
+<!-- 正常图片 -->
+<image class="img" style="{{ imgStyle }}" src="{{ src }}" mode="{{ imgMode }}" binderror='imgErrorEvent' wx:if="{{ !showErrorImg }}"></image>
+<!-- 错误图片 -->
+<image class="img" style="{{ imgStyle }}" src="{{ errorSrc }}" mode="{{ imgMode }}" wx:if="{{ showErrorImg }}"></image>

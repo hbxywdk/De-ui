@@ -1,0 +1,16 @@
+<de-title title="基本使用"></de-title>
+<view class='demo-image'>
+  <de-image src='{{ img }}'></de-image>
+</view>
+<de-title title="图片填充模式"></de-title>
+<view class='demo-image'>
+  <de-image src='{{ img }}' imgMode="scaleToFill"></de-image>
+</view>
+<de-title title="自定义图片样式"></de-title>
+<view class='demo-image' style='height: auto;'>
+  <de-image imgStyle='{{ imgStyle }}' src='{{ img }}'></de-image>
+</view>
+<de-title title="图片加载出错，使用错误图片替换"></de-title>
+<view class='demo-image'>
+  <de-image src='http://www.aaa.com/a.png' errorSrc="{{ errorImg }}"></de-image>
+</view>

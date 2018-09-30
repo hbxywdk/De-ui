@@ -1,7 +1,7 @@
 Page({
 
   data: {
-    src: 'https://image.shanglishi.com/f_m_icon_add.png'
+    src: 'https://image.shanglishi.com/f_m_icon_qun.png'
   },
 
   onLoad: function (options) {

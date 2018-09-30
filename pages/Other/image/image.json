@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Image",
+  "usingComponents": {
+    "de-image": "/components/de-image/de-image",
+    "de-title": "/components/de-title/de-title"
+  }
+}

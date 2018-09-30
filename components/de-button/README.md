@@ -6,6 +6,7 @@ bgColor | String | 按钮颜色（若传入这一项，则type失效） | ''
 disabled | Boolean | 按钮禁用 | false
 loading | Boolean | 按钮加载 | false
 openType | String | 微信开放能力 contact share getUserInfo getPhoneNumber openSetting | ''
+
 ---
 
 事件 | 说明

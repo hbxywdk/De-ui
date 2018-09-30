@@ -1,1 +1,7 @@
-{}
+{
+  "navigationBarTitleText": "Input",
+  "usingComponents": {
+    "de-input": "/components/de-input/de-input",
+    "de-title": "/components/de-title/de-title"
+  }
+}
