@@ -7,7 +7,7 @@
     </de-list-group>
   </de-label>
 
-  <de-label title="布局" fTitle="布局说明文字">
+  <de-label title="布局">
     <de-list-group>
       <de-list text="Layout 栅格布局" bindtap="go" data-link="/pages/Layout/flex/flex"></de-list>
       <de-list text="Title 标题" bindtap="go" data-link="/pages/Layout/title/title"></de-list>
@@ -16,17 +16,22 @@
     </de-list-group>
   </de-label>
 
-  <de-label title="表单" fTitle="表单说明文字">
+  <de-label title="表单">
     <de-list-group>
-      <de-list text="Input 输入框"></de-list>
+      <de-list text="Input 输入框" bindtap="go" data-link="/pages/Form/input/input"></de-list>
     </de-list-group>
   </de-label>
   
-  <de-label title="功能" fTitle="表单说明文字">
+  <de-label title="功能">
     <de-list-group>
       <de-list text="Selector 选择器" bindtap="go" data-link="/pages/Function/selector/selector"></de-list>
       <de-list text="Scroller 滚动区域" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
     </de-list-group>
   </de-label>
 
+  <de-label title="其他">
+    <de-list-group>
+      <de-list text="Loading 加载" bindtap="go" data-link="/pages/Other/loading/loading"></de-list>
+    </de-list-group>
+  </de-label>
 </view>

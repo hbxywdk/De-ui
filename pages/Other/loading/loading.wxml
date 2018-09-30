@@ -1,0 +1,4 @@
+<de-loading showLoading="{{ loading }}"></de-loading>
+<view>
+  页面内容，该页展示为整页loading，局部loading待开发
+</view>

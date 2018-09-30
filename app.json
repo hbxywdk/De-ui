@@ -7,7 +7,9 @@
     "pages/Function/selector/selector",
     "pages/Function/scroller/scroller",
     "pages/Layout/label/label",
-    "pages/Base/button/button"
+    "pages/Base/button/button",
+    "pages/Form/input/input",
+    "pages/Other/loading/loading"
   ],
   "window": {
     "backgroundTextStyle": "light",

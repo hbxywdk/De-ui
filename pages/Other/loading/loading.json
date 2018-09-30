@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Loading",
+  "usingComponents": {
+    "de-loading": "/components/de-loading/de-loading"
+  }
+}

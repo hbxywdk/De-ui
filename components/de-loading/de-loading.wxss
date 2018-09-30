@@ -1,0 +1,50 @@
+.warp-box{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+.loading-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+.loading-box>view{
+  width: 24rpx;
+  height: 24rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -12rpx;
+  margin-left: -12rpx;
+  background: #2ccaf4;
+  display: inline-block;
+  border-radius: 50%;
+  -webkit-animation: ball-scale 1s infinite ease-in-out;
+  animation: ball-scale 1s infinite ease-in-out;
+}
+@keyframes ball-scale{
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(2.5);
+    opacity:0;
+  }
+}
+@-webkit-keyframes ball-scale{
+  0%, 100% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    -webkit-transform: scale(2.5);
+    opacity:0;
+  }
+}

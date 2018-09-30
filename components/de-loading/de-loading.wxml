@@ -1,0 +1,5 @@
+<view class='warp-box' wx:if="{{ showLoading }}">
+  <view class='loading-box'>
+    <view></view>
+  </view>
+</view>
