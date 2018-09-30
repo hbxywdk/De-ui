@@ -1,4 +1,4 @@
-<view class='warp-box' wx:if="{{ showLoading }}">
+<view class='warp-box {{ bgOpacity ? "opacity-bg" : "white-bg" }}' wx:if="{{ showLoading }}">
   <view class='loading-box'>
     <view></view>
   </view>
