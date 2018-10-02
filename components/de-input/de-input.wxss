@@ -1,15 +1,14 @@
 @import '/app.wxss';
 
-.b-top{
+.first{
   border-top: 1rpx solid #e5e5e5;
 }
-.b-bottom{
+.last{
   border-bottom: 1rpx solid #e5e5e5;
 }
 .input-box{
-  /* width: 100%; */
   min-height: 88rpx;
-  margin-left: 20rpx;
+  padding-left: 20rpx;
   box-sizing: border-box;
 }
 .input-box>view{
@@ -34,7 +33,6 @@
 .text-input-box input{
   height: 100%;
   color: #666;
-  /* padding-left: 20rpx; */
 }
 .button-box{
   width: 180rpx;

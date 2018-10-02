@@ -1,0 +1,3 @@
+<view class="de-input-group">
+    <slot></slot>
+</view>

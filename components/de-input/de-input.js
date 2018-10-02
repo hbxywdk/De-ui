@@ -1,36 +1,35 @@
 Component({
-  /**
-   * 组件的属性列表
-   */
+  relations: {
+    '../de-input-group/de-input-group': {
+      type: 'parent'
+    }
+  },
+
   properties: {
-    'kindOfType': {
-      type: String
-    },
-    // 上边框
-    'bTop': {
-      type: Boolean,
-      value: true
-    },
-    // 下边框
-    'bBottom': {
-      type: Boolean,
-      value: false
+    // 类型 input textarea
+    'type': {
+      type: String,
+      value: 'input'
     },
     // label文字
     'labelText': {
-      type: String
+      type: String,
+      value: ''
     },
-    // button文字
+    // button文字（传入该参数则显示button）
     'buttonText': {
-      type: String
+      type: String,
+      value: ''
     },
-    // 是否是必填项（必填项显示红色*）
-    'isRequired': {
+    // 是否是必填项
+    'required': {
       type: Boolean,
       value: false
     },
+    // 占位文字
     'placeholder': {
-      type: String
+      type: String,
+      value: ''
     },
     // 最大长度
     'maxLength': {
@@ -42,22 +41,25 @@ Component({
       type: 'Number',
       value: 0
     },
+    // input 默认文本
     value: {
       type: null
     }
   },
 
-  /**
-   * 组件的初始数据
-   */
   data: {
-    platform: 'app.globalData.system.platform'
+    platform: wx.getSystemInfoSync().platform,
+    isFirstOne: false,
+    isLastOne: false
   },
 
-  /**
-   * 组件的方法列表
-   */
   methods: {
+    _setFirstOne(isFirstOne) {
+      this.setData({ isFirstOne })
+    },
+    _setLastOne(isLastOne) {
+      this.setData({ isLastOne })
+    },
     textInput(e) {
       this.triggerEvent('input', e.detail.value)
     },

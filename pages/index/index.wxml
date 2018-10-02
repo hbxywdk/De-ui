@@ -2,7 +2,7 @@
 
   <de-label title="基础">
     <de-list-group>
-      <de-list text="Button 按钮" bindtap="go" data-link="/pages/Base/button/button"></de-list>
+      <de-list text="Button 按钮 ~" bindtap="go" data-link="/pages/Base/button/button"></de-list>
       <de-list text="Icon 图标"></de-list>
       <de-list text="Color 颜色" bindtap="go" data-link="/pages/Base/button/button"></de-list>
       
@@ -11,18 +11,18 @@
 
   <de-label title="布局">
     <de-list-group>
-      <de-list text="Layout 栅格布局" bindtap="go" data-link="/pages/Layout/flex/flex"></de-list>
+      <de-list text="Layout 栅格布局 ~" bindtap="go" data-link="/pages/Layout/flex/flex"></de-list>
       <de-list text="Grid 九宫格" bindtap="go" data-link="/pages/Layout/flex/flex"></de-list>
-      <de-list text="Title 标题" bindtap="go" data-link="/pages/Layout/title/title"></de-list>
-      <de-list text="Label 标签" bindtap="go" data-link="/pages/Layout/label/label"></de-list>
-      <de-list text="List 列表" bindtap="go" data-link="/pages/Layout/list/list"></de-list>
+      <de-list text="Title 标题 ~" bindtap="go" data-link="/pages/Layout/title/title"></de-list>
+      <de-list text="Label 标签 ~" bindtap="go" data-link="/pages/Layout/label/label"></de-list>
+      <de-list text="List 列表 ~" bindtap="go" data-link="/pages/Layout/list/list"></de-list>
       <!-- 页底非微信自带tabBar -->
       <de-list text="FooterTabs 底部标签" bindtap="go" data-link="/pages/Layout/list/list"></de-list>
       <!-- 用swiper实现左右滑动 -->
       <de-list text="SwiperTabs 滑动标签" bindtap="go" data-link="/pages/Layout/list/list"></de-list>
       <de-list text="Progress 进度条" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
       <!-- 加载完全（加载中&没有更多了） -->
-      <de-list text="Line 分割线" bindtap="go" data-link="/pages/Layout/line/line"></de-list>
+      <de-list text="Line 分割线 ~" bindtap="go" data-link="/pages/Layout/line/line"></de-list>
       
     </de-list-group>
   </de-label>
@@ -30,7 +30,7 @@
   <de-label title="表单">
     <!-- 表单都需要禁用配置 -->
     <de-list-group>
-      <de-list text="Input 输入框" bindtap="go" data-link="/pages/Form/input/input"></de-list>
+      <de-list text="Input 输入框 ~" bindtap="go" data-link="/pages/Form/input/input"></de-list>
       <de-list text="Radio 单选" bindtap="go" data-link="/pages/Form/input/input"></de-list>
       <de-list text="Checkbox 多选 " bindtap="go" data-link="/pages/Form/input/input"></de-list>
       <de-list text="Swicth 开关 " bindtap="go" data-link="/pages/Form/input/input"></de-list>
@@ -67,7 +67,7 @@
 
   <de-label title="页面">
     <de-list-group>
-      <de-list text="Loading 加载" bindtap="go" data-link="/pages/Other/loading/loading"></de-list>
+      <de-list text="Loading 加载 ~" bindtap="go" data-link="/pages/Other/loading/loading"></de-list>
       <!-- 操作成功、失败提示页面 -->
       <de-list text="MsgPage 页面提示" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
     </de-list-group>
@@ -75,7 +75,7 @@
 
   <de-label title="其他">
     <de-list-group>
-      <de-list text="Image 图片" bindtap="go" data-link="/pages/Other/image/image"></de-list>
+      <de-list text="Image 图片 ~" bindtap="go" data-link="/pages/Other/image/image"></de-list>
     </de-list-group>
   </de-label>
 </view>

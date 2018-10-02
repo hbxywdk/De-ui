@@ -1,9 +1,20 @@
 <de-title title="基本使用"></de-title>
-<de-input 
-  kindOfType="type1" 
-  placeholder='请输入名字'
-  value="{{ info.name }}"
-  bTop="{{ false }}"
-  bind:input="nameInput"
-  >
+<de-input type="input" placeholder='请输入名字' value="{{ name }}" bind:input="input">
 </de-input>
+
+<de-title title="文本说明"></de-title>
+<de-input labelText='验证码' placeholder='请输入验证码' maxLength="6" required bind:input="input">
+</de-input>
+
+<de-title title="按钮"></de-title>
+<de-input type="input" labelText='验证码' placeholder='请输入验证码' maxLength="6" buttonText="发送 "bind:input="input" bind:btnclick="btnclick"></de-input>
+
+<de-title title="textarea"></de-title>
+<de-input type="textarea" labelText='自我介绍' placeholder='让微信好友更了解你' bind:input="input" ></de-input>
+
+<de-title title="成组使用"></de-title>
+<de-input-group>
+  <de-input labelText='验证码' placeholder='请输入验证码' maxLength="6" required bind:input="input"></de-input>
+  <de-input labelText='验证码' placeholder='请输入验证码' maxLength="6" required bind:input="input"></de-input>
+  <de-input labelText='验证码' placeholder='请输入验证码' maxLength="6" required bind:input="input"></de-input>
+</de-input-group>

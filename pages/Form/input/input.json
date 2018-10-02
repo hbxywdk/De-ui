@@ -2,6 +2,7 @@
   "navigationBarTitleText": "Input",
   "usingComponents": {
     "de-input": "/components/de-input/de-input",
+    "de-input-group": "/components/de-input-group/de-input-group",
     "de-title": "/components/de-title/de-title"
   }
 }
