@@ -22,7 +22,7 @@
       <de-list text="SwiperTabs 滑动标签" bindtap="go" data-link="/pages/Layout/list/list"></de-list>
       <de-list text="Progress 进度条" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
       <!-- 加载完全（加载中&没有更多了） -->
-      <de-list text="NoMore 没有更多" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
+      <de-list text="Line 分割线" bindtap="go" data-link="/pages/Layout/line/line"></de-list>
       
     </de-list-group>
   </de-label>
@@ -62,6 +62,12 @@
       <!-- 支持文本、slot插入自定义内容，带确定、取消按钮 -->
       <de-list text="Alert 弹窗" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
       <de-list text="Toast 文本提示" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
+    </de-list-group>
+  </de-label>
+
+  <de-label title="页面">
+    <de-list-group>
+      <de-list text="Loading 加载" bindtap="go" data-link="/pages/Other/loading/loading"></de-list>
       <!-- 操作成功、失败提示页面 -->
       <de-list text="MsgPage 页面提示" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
     </de-list-group>
@@ -69,7 +75,6 @@
 
   <de-label title="其他">
     <de-list-group>
-      <de-list text="Loading 加载" bindtap="go" data-link="/pages/Other/loading/loading"></de-list>
       <de-list text="Image 图片" bindtap="go" data-link="/pages/Other/image/image"></de-list>
     </de-list-group>
   </de-label>

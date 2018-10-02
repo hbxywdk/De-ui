@@ -1,0 +1,14 @@
+.de-line{
+  height: 2rpx;
+  position: relative;
+  margin: 50rpx auto;
+}
+.de-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  padding: 0 40rpx;
+  background: #fff;
+  font-size: 28rpx;
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Line",
+  "usingComponents": {
+    "de-title": "/components/de-title/de-title",
+    "de-line": "/components/de-line/de-line"
+  }
+}

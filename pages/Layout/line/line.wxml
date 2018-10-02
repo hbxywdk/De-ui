@@ -1,0 +1,11 @@
+<de-title title="基本使用"></de-title>
+<de-line text="没有更多了"></de-line> 
+
+<de-title title="自定义颜色"></de-title>
+<de-line text="没有更多了" lineColor="#666"></de-line> 
+
+<de-title title="纯分割线"></de-title>
+<de-line lineColor="yellowgreen"></de-line> 
+
+<de-title title="分割线长度"></de-title>
+<de-line text="没有更多了" lineColor="#f20" lineWidth="70%"></de-line> 

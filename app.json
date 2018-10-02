@@ -10,7 +10,8 @@
     "pages/Base/button/button",
     "pages/Form/input/input",
     "pages/Other/loading/loading",
-    "pages/Other/image/image"
+    "pages/Other/image/image",
+    "pages/Layout/line/line"
   ],
   "window": {
     "backgroundTextStyle": "light",

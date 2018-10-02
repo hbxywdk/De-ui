@@ -1,0 +1,3 @@
+<view class='de-line' style='background: {{ lineColor }};width: {{ lineWidth }};'>
+  <view class='de-text' style='color: {{ lineColor }};' wx:if="{{ text }}">{{ text }}</view>
+</view>
