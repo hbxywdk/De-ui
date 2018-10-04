@@ -1,0 +1,3 @@
+.demo-progress{
+  padding: 0 20rpx;
+}

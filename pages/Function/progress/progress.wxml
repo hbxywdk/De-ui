@@ -1,0 +1,13 @@
+<de-title title="基本"></de-title>
+<view class='demo-progress'>
+  <de-progress percent="70"></de-progress>
+</view>
+<de-title title="自定义颜色"></de-title>
+<view class='demo-progress'>
+  <de-progress percent="40" bgColor="red"></de-progress>
+</view>
+<de-title title="改变百分比"></de-title>
+<view class='demo-progress'>
+  <de-progress percent="{{ percent }}" bgColor="{{ bgColor }}"></de-progress>
+</view>
+

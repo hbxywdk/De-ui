@@ -1,0 +1,8 @@
+<view class='de-progress'>
+  <!-- 进度条 -->
+  <view class='de-base-bg'>
+    <view class='de-active-bg' style='background: {{ bgColor }};width: {{ percent }}%;'></view>
+  </view>
+  <!-- 数字 -->
+  <view class='de-percent'>{{ percent }} %</view>
+</view>
