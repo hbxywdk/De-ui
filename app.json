@@ -12,7 +12,8 @@
     "pages/Other/loading/loading",
     "pages/Other/image/image",
     "pages/Layout/line/line",
-    "pages/Function/progress/progress"
+    "pages/Function/progress/progress",
+    "pages/Function/search/search"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,22 @@
+<view class="search-bg" style='padding: {{ padding }};background: {{ background }};'>
+  <view class="warp-input" style='width: {{ width }};height: {{ height }};border-radius: {{ borderRadius }};'>
+      <view class='search-mask flex-center' style='border-radius: {{ borderRadius }};' bindtap='showSearch' wx:if="{{ !showInput }}">
+          <view class='mask-words flex-center'>
+           <!-- class='search-icon' -->
+            <wxc-icon size="40" type="search" class='search-icon'></wxc-icon>搜索
+          </view>
+      </view>
+     <input 
+      style='width: 85%;'
+      focus="{{ inputFocus }}"
+      type="text" 
+      maxlength='{{ maxLength }}'
+      value="{{ inputValue }}" 
+      placeholder="{{ placeholder }}" 
+      bindinput="input"
+      bindblur="blur"
+      bindconfirm="confirm">
+     </input>
+     <span wx:if="{{ inputValue.length !== 0 }}" class="cancel-search" catchtap="clearInput">取消</span> 
+  </view>
+</view>

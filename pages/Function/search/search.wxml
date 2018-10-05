@@ -1,0 +1,8 @@
+<de-title title="使用"></de-title>
+<de-search placeholder="请输入"></de-search>
+
+<de-title title="搜索框背景色"></de-title>
+<de-search placeholder="请输入" background="#2ccaf4"></de-search>
+
+<de-title title="搜索与清空事件"></de-title>
+<de-search placeholder="请输入" bind:search="search" bind:clear="clear"></de-search>
