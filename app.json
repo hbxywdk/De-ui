@@ -13,7 +13,8 @@
     "pages/Other/image/image",
     "pages/Layout/line/line",
     "pages/Function/progress/progress",
-    "pages/Function/search/search"
+    "pages/Function/search/search",
+    "pages/Form/swicth/swicth"
   ],
   "window": {
     "backgroundTextStyle": "light",

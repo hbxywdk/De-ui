@@ -1,0 +1,28 @@
+.swicth-warp{
+  border: 3rpx solid #ccc;
+  position: relative;
+  width: 90rpx;
+  height: 40rpx;
+  border-radius: 20rpx;
+  box-sizing: border-box;
+}
+.swicth-dot{
+  width: 18rpx;
+  height: 18rpx;
+  background: #ccc;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 10rpx;
+  transform: translateY(-50%);
+  transition: all 0.2s ease-in-out;
+}
+.swicth-dot.active{
+  background: #2ccaf4;
+  left: 55rpx;
+  width: 25rpx;
+  height: 25rpx;
+}
+.swicth-dot.disabled{
+  background: #ccc!important;
+}

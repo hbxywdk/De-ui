@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Swicth",
+  "usingComponents": {
+    "de-title": "/components/de-title/de-title",
+    "de-swicth": "/components/de-swicth/de-swicth"
+  }
+}

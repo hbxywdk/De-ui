@@ -1,0 +1,3 @@
+<view class='swicth-warp' bindtap='swicthTap'>
+  <view class='swicth-dot {{ status ? "active" : "" }} {{ disabled ? "disabled" : "" }}'></view>
+</view>
