@@ -36,7 +36,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 10,
+			"current": 11,
 			"list": [
 				{
 					"id": -1,
@@ -101,7 +101,13 @@
 				{
 					"id": -1,
 					"name": "swicth",
-					"pathName": "pages/Form/swicth/swicth"
+					"pathName": "pages/Form/swicth/swicth",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "TopNotice",
+					"pathName": "pages/Alert/topNotice/topNotice"
 				}
 			]
 		}

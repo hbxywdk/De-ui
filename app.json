@@ -14,7 +14,8 @@
     "pages/Layout/line/line",
     "pages/Function/progress/progress",
     "pages/Function/search/search",
-    "pages/Form/swicth/swicth"
+    "pages/Form/swicth/swicth",
+    "pages/Alert/topNotice/topNotice"
   ],
   "window": {
     "backgroundTextStyle": "light",
