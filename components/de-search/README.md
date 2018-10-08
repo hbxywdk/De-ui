@@ -1,3 +1,4 @@
+### 属性
 属性 | 类型 | 说明 | 默认值
 :- | :-: | :-: | -: 
 placeholder | String | 同placeholder | ''
@@ -8,8 +9,7 @@ background | String | 背景色 | '#efefef'
 borderRadius | String | 圆角 | '10rpx'
 maxLength | String | 最大长度 | '20'
 
----
-
+### 事件
 事件 | 说明
 :- | -:
 bind:search | 搜索事件
