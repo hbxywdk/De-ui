@@ -1,0 +1,12 @@
+<view class='icon'>
+  <icon size='80' type="{{ iconType == '1' ? 'success' : 'warn' }}"></icon>
+</view>
+<view class='main-tit'>
+  {{ firstTit }}
+</view>
+<view class='fu-tit'>
+  {{ secondTit }}
+</view>
+<button class='back-btn' bindtap='goBack'>
+  {{ btnText }}
+</button>

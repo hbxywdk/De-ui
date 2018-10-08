@@ -1,0 +1,31 @@
+page{
+  background: #EFEFF4;
+}
+.icon{
+  text-align: center;
+  margin: 100rpx 0 50rpx;
+}
+.icon image{
+  width: 186rpx;
+  height: 186rpx;
+}
+.main-tit{
+  text-align: center;
+  font-size: 44rpx;
+  margin-bottom: 30rpx;
+}
+.fu-tit{
+  text-align: center;
+  font-size: 28rpx;
+  color: #999;
+  margin: 0 0 59rpx;
+}
+.back-btn{
+  background: #1aad19;
+  color: #fff;
+  width: 670rpx;
+  font-size: 36rpx;
+  line-height: 95rpx;
+  height: 95rpx;
+  margin: 0 auto;
+}

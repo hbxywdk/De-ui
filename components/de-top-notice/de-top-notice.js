@@ -23,6 +23,11 @@ Component({
     }
   },
 
+  // ready后获取元素信息
+  ready () {
+    this.properties.roll && (this.startRoll())
+  },
+
   data: {
     show: true
   },
@@ -30,6 +35,9 @@ Component({
   methods: {
     close () {
       this.setData({ show: false })
+    },
+    startRoll () {
+      console.log('Roll')
     }
   }
 })

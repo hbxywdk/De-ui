@@ -1,0 +1,8 @@
+<de-title title="操作成功"></de-title>
+<view class='demo'>
+  <de-button type='success' bind:click="success">操作成功</de-button>
+</view>
+<de-title title="操作失败"></de-title>
+<view class='demo'>
+  <de-button type='error' bind:click="fail">操作失败</de-button>
+</view>

@@ -15,7 +15,9 @@
     "pages/Function/progress/progress",
     "pages/Function/search/search",
     "pages/Form/swicth/swicth",
-    "pages/Alert/topNotice/topNotice"
+    "pages/Alert/topNotice/topNotice",
+    "pages/Other/msgPage/msgPage",
+    "page/de-msg-page/de-msg-page"
   ],
   "window": {
     "backgroundTextStyle": "light",

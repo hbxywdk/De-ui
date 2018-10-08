@@ -65,3 +65,6 @@ button.remove-btn-style:after{
 .light-bg-color{
   background: #31daf9;
 }
+.demo{
+  margin: 0 20rpx;
+}
