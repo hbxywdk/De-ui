@@ -1,3 +1,4 @@
+### 属性
 属性 | 类型 | 说明 | 默认值
 :- | :-: | :-: | -: 
 size | String | 按钮尺寸 （同官方文档）default, mini | default
@@ -7,8 +8,7 @@ disabled | Boolean | 按钮禁用 | false
 loading | Boolean | 按钮加载 | false
 openType | String | 微信开放能力 contact share getUserInfo getPhoneNumber openSetting | ''
 
----
-
+### 事件
 事件 | 说明
 :- | -:
 bind:click | 点击事件（loading与disabled状态下不会被触发）

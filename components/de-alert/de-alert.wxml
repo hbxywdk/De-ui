@@ -1,0 +1,33 @@
+<view class='reject-box' wx:if="{{ show }}">
+  <!-- 标题 -->
+  <view class='reject-tit' wx:if="{{ title }}">{{ title }}</view>
+  <!-- 内容 -->
+  <view class='reject-content'>
+    <slot></slot>
+  </view>
+  <!-- 按钮 -->
+  <view class='flex-between warp-button'>
+    <view class='cancel' wx:if="{{ showCancel }}" bindtap='cancel'>
+      取消
+    </view>
+    <view>
+      <button 
+        wx:if="{{ openType }}"
+        class="auth-button remove-btn-style" 
+        open-type="{{ openType }}" 
+        bindcontact="contact"
+        bindgetuserinfo="getUserinfo"
+        bindgetphonenumber="getPhoneNumber"
+        bindopensetting="openSetting"
+        binderror="error"
+      >
+        {{ btnText }}
+      </button>
+      <button class="auth-button remove-btn-style" wx:else bindtap='confirm'>
+        {{ btnText }}
+      </button>
+    </view>
+
+  </view>
+</view>
+<view class='auth-mask' wx:if="{{ show }}"></view>

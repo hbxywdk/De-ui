@@ -58,8 +58,7 @@
       <!-- 类支付宝顶部通告（可滚动） -->
       <de-list text="TopNotice 顶部公告栏 ~" bindtap="go" data-link="/pages/Alert/topNotice/topNotice"></de-list>
       <!-- 支持文本、slot插入自定义内容，带确定、取消按钮 -->
-      <de-list text="Alert 弹窗" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
-      <de-list text="Toast 文本提示" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
+      <de-list text="Alert 弹窗 ~" bindtap="go" data-link="/pages/Alert/alert/alert"></de-list>
     </de-list-group>
   </de-label>
 
@@ -67,7 +66,7 @@
     <de-list-group>
       <de-list text="Loading 加载 ~" bindtap="go" data-link="/pages/Other/loading/loading"></de-list>
       <!-- 操作成功、失败提示页面 -->
-      <de-list text="MsgPage 页面提示" bindtap="go" data-link="/pages/Other/msgPage/msgPage"></de-list>
+      <de-list text="MsgPage 页面提示 ~" bindtap="go" data-link="/pages/Other/msgPage/msgPage"></de-list>
       <de-list text="Image 图片 ~" bindtap="go" data-link="/pages/Other/image/image"></de-list>
     </de-list-group>
   </de-label>

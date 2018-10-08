@@ -17,7 +17,8 @@
     "pages/Form/swicth/swicth",
     "pages/Alert/topNotice/topNotice",
     "pages/Other/msgPage/msgPage",
-    "page/de-msg-page/de-msg-page"
+    "page/de-msg-page/de-msg-page",
+    "pages/Alert/alert/alert"
   ],
   "window": {
     "backgroundTextStyle": "light",

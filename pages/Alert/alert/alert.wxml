@@ -1,0 +1,63 @@
+<!-- 基本使用 -->
+<de-title title="使用"></de-title>
+<view class="demo">
+  <de-button type='success' bind:click="btnClick1">点击</de-button>
+</view>
+<de-alert title="提示" show="{{ show1 }}" bind:confirm="confirm1" bind:cancel="cancel1">
+  <view class='demo-slot'>
+    <view>确定要修改您的个人信息吗？</view>
+    <view>修改后您的认证状态将会失效</view>
+  </view>
+</de-alert>
+
+<!-- 无标题 -->
+<de-title title="无标题"></de-title>
+<view class="demo">
+  <de-button type='success' bind:click="btnClick2">无标题</de-button>
+</view>
+<de-alert show="{{ show2 }}" bind:confirm="confirm2" bind:cancel="cancel2">
+  <view class='demo-slot'>
+    确定要修改您的个人信息吗？
+  </view>
+</de-alert>
+
+<!-- 自定义内容 -->
+<de-title title="自定义内容"></de-title>
+<view class="demo">
+  <de-button type='success' bind:click="btnClick3">自定义内容</de-button>
+</view>
+<de-alert title="自定义内容" show="{{ show3 }}" bind:confirm="confirm3" bind:cancel="cancel3">
+  <view class='demo-slot'>
+    <icon type="success" size='60'></icon>
+    <view>这里是自定义slot内容</view>
+  </view>
+</de-alert>
+
+<!-- 使用微信开放能力 -->
+<de-title title="使用微信开放能力"></de-title>
+<view class="demo">
+  <de-button type='success' bind:click="btnClick4">使用微信开放能力</de-button>
+</view>
+<de-alert 
+  title="提示" 
+  btnText="去授权"
+  show="{{ show4 }}" 
+  openType="getUserInfo"
+  bind:bindGetUserinfo="getUserinfo"
+  bind:cancel="cancel4"
+>
+  <view class='demo-slot'>
+    <view>需要您的授权才可正常使用</view>
+  </view>
+</de-alert>
+
+<!-- 隐藏取消按钮 -->
+<de-title title="隐藏取消按钮"></de-title>
+<view class="demo">
+  <de-button type='success' bind:click="btnClick5">隐藏取消按钮</de-button>
+</view>
+<de-alert title="提示" btnText="我知道了" showCancel="{{ false }}" show="{{ show5 }}" bind:confirm="confirm5">
+  <view class='demo-slot'>
+    您已成功修改您的个人信息
+  </view>
+</de-alert>
