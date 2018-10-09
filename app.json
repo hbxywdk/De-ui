@@ -19,7 +19,8 @@
     "pages/Other/msgPage/msgPage",
     "page/de-msg-page/de-msg-page",
     "pages/Alert/alert/alert",
-    "pages/Layout/footerTabs/footerTabs"
+    "pages/Layout/footerTabs/footerTabs",
+    "pages/Function/range/range"
   ],
   "window": {
     "backgroundTextStyle": "light",

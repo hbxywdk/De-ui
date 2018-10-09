@@ -1,0 +1,5 @@
+<view class='warp-range'>
+  <view class='min'>{{ min }}</view>
+  <view class='de-range'></view>
+  <view class='max'>{{ max }}</view>
+</view>

@@ -46,7 +46,7 @@
       <de-list text="IndexSelector 索引选择器" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
       <!-- 类iOS滑动删除（可自定义滑出按钮） -->
       <de-list text="SlideDel 滑动删除" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
-      <de-list text="Slider 单、双滑块" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
+      <de-list text="Range 单、双滑块 -" bindtap="go" data-link="/pages/Function/range/range"></de-list>
       <de-list text="Search 搜索 ~" bindtap="go" data-link="/pages/Function/search/search"></de-list>
       <de-list text="Progress 进度条 ~" bindtap="go" data-link="/pages/Function/progress/progress"></de-list>
       

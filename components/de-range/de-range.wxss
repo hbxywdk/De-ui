@@ -1,0 +1,22 @@
+.warp-range{
+  position: relative;
+  height: 60rpx;
+  border: 1rpx solid red;
+  border-width: 1rpx 0;
+}
+.de-range{
+
+}
+.min, .max{
+  position: absolute;
+  color: #999;
+  font-size: 28rpx;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.min{
+  left: 0;
+}
+.max{
+  right: 0;
+}
