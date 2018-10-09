@@ -14,7 +14,7 @@
       <de-list text="Label 标签 ~" bindtap="go" data-link="/pages/Layout/label/label"></de-list>
       <de-list text="List 列表 ~" bindtap="go" data-link="/pages/Layout/list/list"></de-list>
       <!-- 页底非微信自带tabBar -->
-      <de-list text="FooterTabs 底部标签" bindtap="go" data-link="/pages/Layout/list/list"></de-list>
+      <de-list text="FooterTabs 底部标签 ~" bindtap="go" data-link="/pages/Layout/footerTabs/footerTabs"></de-list>
       <!-- 用swiper实现左右滑动 -->
       <de-list text="SwiperTabs 滑动标签" bindtap="go" data-link="/pages/Layout/list/list"></de-list>
       <!-- 加载完全（加载中&没有更多了） -->

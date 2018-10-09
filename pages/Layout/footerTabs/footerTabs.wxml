@@ -1,0 +1,21 @@
+<de-title title="基本使用"></de-title>
+<de-footer-tabs 
+  config="{{ footerConfig1 }}" 
+  width="54" 
+  height="54"
+  color="#1aad19"
+  nowTab="{{ index0 }}"
+  bind:click="tabClick1"
+>
+</de-footer-tabs>
+
+<de-title title="消息红点提示"></de-title>
+<de-footer-tabs 
+  config="{{ footerConfig2 }}" 
+  width="54" 
+  height="54"
+  color="#1aad19"
+  nowTab="{{ index1 }}"
+  bind:click="tabClick2"
+>
+</de-footer-tabs>

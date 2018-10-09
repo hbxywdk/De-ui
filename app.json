@@ -18,7 +18,8 @@
     "pages/Alert/topNotice/topNotice",
     "pages/Other/msgPage/msgPage",
     "page/de-msg-page/de-msg-page",
-    "pages/Alert/alert/alert"
+    "pages/Alert/alert/alert",
+    "pages/Layout/footerTabs/footerTabs"
   ],
   "window": {
     "backgroundTextStyle": "light",
