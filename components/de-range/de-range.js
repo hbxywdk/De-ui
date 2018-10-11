@@ -1,4 +1,3 @@
-// 暂时搁置
 Component({
 
   properties: {
