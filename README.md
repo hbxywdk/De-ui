@@ -7,7 +7,7 @@ A UI library for wechat mini program
 
 - 基础
     - [x] Button 按钮
-    - Icon 图标
+    - [x] Icon 图标
 - 布局
     - [x] Layout 栅格布局
     - [x] Title 标题
