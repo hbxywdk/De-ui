@@ -7,7 +7,7 @@ Component({
    * 组件的属性列表
    */
   properties: {
-    // 高度，默认为80
+    // 默认为80
     padding: {
       type: Number,
       value: 20,
@@ -40,7 +40,6 @@ Component({
    */
   data: {
     bottom: 0, // 控件所在底边定位
-    showMask: false,
     openStatus: false, // 该组件的开关状态
     selectItem: null, // 当前选中项
   },

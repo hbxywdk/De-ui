@@ -31,7 +31,5 @@
     </view>
   </view>
   <!-- 遮罩 -->
-  <view class='filter-mask' style='top: {{ bottom }}px;'>
-  
-  </view>
+  <view class='filter-mask' style='top: {{ bottom }}px;' wx:if="{{ openStatus }}"></view>
 </view>
