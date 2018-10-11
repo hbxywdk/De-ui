@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "对齐方式",
+  "usingComponents": {
+    "de-title": "/components/de-title/de-title"
+  }
+}

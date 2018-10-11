@@ -8,6 +8,7 @@ A UI library for wechat mini program
 - 基础
     - [x] Button 按钮
     - [x] Icon 图标
+    - [x] Flex 对齐方式
 - 布局
     - [x] Layout 栅格布局
     - [x] Title 标题
@@ -36,3 +37,19 @@ A UI library for wechat mini program
     - [x] Loading 加载
     - [x] MsgPage 页面提示
     - [x] Image 图片
+
+#### Future
+- 布局
+    - 宫格布局 Grid
+- 功能
+    - 步骤条 Steps
+    - 吸顶容器 Sticky
+    - 顶部弹出提示 TopTips
+    - 环形进度条 Circle
+    - 倒计时 CountDown
+    - 滚动公告 RollingBulletin
+    - 轮播图的封装 Swiper
+- 提示
+    - 弹出式 Loading
+    - 弹出式密码输入框 Password
+    - 提示 Toast

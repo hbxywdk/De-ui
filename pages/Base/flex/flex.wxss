@@ -1,0 +1,18 @@
+.demo-red{
+  background: #ed3f1f;
+}
+.demo-blue{
+  background: #2ccaf4;
+}
+.demo-yellow{
+  background: #f92;
+}
+.warp>view{
+  width: 180rpx;
+  height: 110rpx;
+  line-height: 110rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 36rpx;
+  border-radius: 8rpx;
+}

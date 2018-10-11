@@ -1,0 +1,48 @@
+<de-title title="两端对齐"></de-title>
+<view class='warp flex-between'>
+  <view class='demo-red'>Box</view>
+  <view class='demo-blue'>Box</view>
+  <view class='demo-yellow'>Box</view>
+</view>
+
+<de-title title="均匀分布"></de-title>
+<view class='warp flex-around'>
+  <view class='demo-blue'>Box</view>
+  <view class='demo-red'>Box</view>
+  <view class='demo-yellow'>Box</view>
+</view>
+
+<de-title title="居中"></de-title>
+<view class='warp flex-center'>
+  <view class='demo-blue'>Box</view>
+  <view class='demo-yellow'>Box</view>
+  <view class='demo-red'>Box</view>
+  
+</view>
+
+<de-title title="居左"></de-title>
+<view class='warp flex-start'>
+  <view class='demo-blue'>Box</view>
+  <view class='demo-red'>Box</view>
+  <view class='demo-yellow'>Box</view>
+</view>
+
+<de-title title="居右"></de-title>
+<view class='warp flex-end'>
+  <view class='demo-red'>Box</view>
+  <view class='demo-blue'>Box</view>
+  <view class='demo-yellow'>Box</view>
+</view>
+
+<de-title title="垂直"></de-title>
+<view class='warp flex-column'>
+  <view class='demo-blue'>Box</view>
+  <view class='demo-red'>Box</view>
+  <view class='demo-yellow'>Box</view>
+</view>
+
+
+
+
+
+

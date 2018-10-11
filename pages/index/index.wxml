@@ -4,6 +4,7 @@
     <de-list-group>
       <de-list text="Button 按钮 ~" bindtap="go" data-link="/pages/Base/button/button"></de-list>
       <de-list text="Icon 图标 ~" bindtap="go" data-link="/pages/Base/icon/icon"></de-list>
+      <de-list text="Flex 对齐方式 ~" bindtap="go" data-link="/pages/Base/flex/flex"></de-list>
     </de-list-group>
   </de-label>
 
