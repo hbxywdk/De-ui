@@ -1,0 +1,34 @@
+<view class='index-warp' style='height: {{ windowHeight }}px;'>
+  <!-- 列表区 -->
+  <scroll-view
+    style='height: {{ windowHeight }}px;'
+    scroll-y 
+    scroll-into-view="{{ nowIndex }}"
+    bindscroll="scroll"
+  >
+    <view class='index-section' wx:for="{{ indexData }}" wx:key="{{ index }}">
+      <view id="{{ index }}" class="index-name">{{ index }}</view>
+      <view 
+        class='index-item' 
+        wx:for-item="item2"
+        wx:for-index="index2"
+        wx:for="{{ item }}" 
+        wx:key="{{ index2 }}"
+        bindtap='itemClick'
+        data-item='{{ item2 }}'
+      >
+        {{ item2.name }}
+      </view>
+    </view>
+  </scroll-view>
+  <!-- indexBar -->
+  <view class='warp-index-bar'>
+    <view class='index-bar-box' catchtouchstart='indexBarMove' catchtouchmove='indexBarMove'>
+      <view class='index-bar {{ nowIndex2 === index ? "bar-active" : "" }}' wx:for="{{ indexData }}" wx:key="{{ index }}">{{ index }}</view>
+    </view>
+  </view>
+  <!-- 中间显示索引 -->
+  <view class='center-index {{ showCenterIndex ? "" : "hide" }}'>
+    {{ nowIndex }}
+  </view>
+</view>

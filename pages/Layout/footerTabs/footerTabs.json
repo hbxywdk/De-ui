@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Flex",
+  "usingComponents": {
+    "de-title": "/components/de-title/de-title",
+    "de-footer-tabs": "/components/de-footer-tabs/de-footer-tabs"
+  }
+}

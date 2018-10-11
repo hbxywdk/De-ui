@@ -1,0 +1,34 @@
+.warp-range{
+  padding: 18px 0;
+  background: #efefef;
+}
+.de-range{
+  position: relative;
+  height: 1rpx;
+  background: #333;
+  margin: 0 35px;
+}
+.min, .max{
+  position: absolute;
+  color: #999;
+  font-size: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  text-align: center;
+}
+.min{
+  left: -28px;
+}
+.max{
+  right: -28px;
+}
+.de-bar{
+  width: 23px;
+  height: 23px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: -12px;
+  box-shadow: 0 2px 5px #aaa;
+}

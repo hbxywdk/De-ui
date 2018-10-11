@@ -33,6 +33,15 @@
   box-sizing: border-box;
 }
 
+/* 均匀分布*/
+.flex-around{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+
 /* 垂直 */
 .flex-column{
   display: flex;

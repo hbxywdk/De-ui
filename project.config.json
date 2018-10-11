@@ -36,7 +36,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 12,
+			"current": 16,
 			"list": [
 				{
 					"id": -1,
@@ -113,7 +113,32 @@
 				{
 					"id": -1,
 					"name": "alert",
-					"pathName": "pages/Alert/alert/alert"
+					"pathName": "pages/Alert/alert/alert",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "footerTabs",
+					"pathName": "pages/Layout/footerTabs/footerTabs",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "range",
+					"pathName": "pages/Function/range/range",
+					"query": ""
+				},
+				{
+					"id": 15,
+					"name": "icon",
+					"pathName": "pages/Base/icon/icon",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "indexSelector",
+					"pathName": "pages/Function/indexSelector/indexSelector",
+					"query": ""
 				}
 			]
 		}

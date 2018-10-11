@@ -1,0 +1,13 @@
+.demo-icon{
+  width: 100%;
+}
+.icon-box{
+  text-align: center;
+  width: 33.333333%;
+  padding: 50rpx 0;
+  float: left;
+}
+.icon-name{
+  color: #999;
+  font-size: 26rpx;
+}

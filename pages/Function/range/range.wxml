@@ -1,0 +1,4 @@
+<de-title title="基本"></de-title>
+<view class='demo'>
+  <de-range></de-range>
+</view>

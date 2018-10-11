@@ -1,0 +1,39 @@
+@import '/app.wxss';
+
+.de-footer-tabs{
+  background: #fff;
+  border: 1rpx solid #efefef;
+  border-width: 1rpx 0;
+  padding: 10rpx 0;
+}
+.de-footer-tabs>view{
+  text-align: center;
+  font-size: 24rpx;
+  /* flex: 1; */
+  position: relative;
+}
+.tab-name{
+  line-height: 28rpx;
+}
+.red-point{
+  position: absolute;
+  top: 0;
+  right: -5rpx;
+  width: 14rpx;
+  height: 14rpx;
+  border-radius: 50%;
+  background: red;
+}
+.red-number{
+  position: absolute;
+  top: -5rpx;
+  right: -10rpx;
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 50%;
+  background: red;
+  color: #fff;
+  text-align: center;
+  line-height: 30rpx;
+  font-size: 18rpx;
+}

@@ -3,7 +3,7 @@
   <de-label title="基础">
     <de-list-group>
       <de-list text="Button 按钮 ~" bindtap="go" data-link="/pages/Base/button/button"></de-list>
-      <de-list text="Icon 图标"></de-list>
+      <de-list text="Icon 图标 ~" bindtap="go" data-link="/pages/Base/icon/icon"></de-list>
     </de-list-group>
   </de-label>
 
@@ -14,7 +14,7 @@
       <de-list text="Label 标签 ~" bindtap="go" data-link="/pages/Layout/label/label"></de-list>
       <de-list text="List 列表 ~" bindtap="go" data-link="/pages/Layout/list/list"></de-list>
       <!-- 页底非微信自带tabBar -->
-      <de-list text="FooterTabs 底部标签" bindtap="go" data-link="/pages/Layout/list/list"></de-list>
+      <de-list text="FooterTabs 底部标签 ~" bindtap="go" data-link="/pages/Layout/footerTabs/footerTabs"></de-list>
       <!-- 用swiper实现左右滑动 -->
       <de-list text="SwiperTabs 滑动标签" bindtap="go" data-link="/pages/Layout/list/list"></de-list>
       <!-- 加载完全（加载中&没有更多了） -->
@@ -43,10 +43,10 @@
       <!-- 局部下拉刷新，上拉加载 -->
       <de-list text="Scroller 滚动区域" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
       <!-- 索引城市选择 -->
-      <de-list text="IndexSelector 索引选择器" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
+      <de-list text="IndexSelector 索引选择器" bindtap="go" data-link="/pages/Function/indexSelector/indexSelector"></de-list>
       <!-- 类iOS滑动删除（可自定义滑出按钮） -->
       <de-list text="SlideDel 滑动删除" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
-      <de-list text="Slider 单、双滑块" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
+      <de-list text="Range 滑块 !" bindtap="go" data-link="/pages/Function/range/range"></de-list>
       <de-list text="Search 搜索 ~" bindtap="go" data-link="/pages/Function/search/search"></de-list>
       <de-list text="Progress 进度条 ~" bindtap="go" data-link="/pages/Function/progress/progress"></de-list>
       

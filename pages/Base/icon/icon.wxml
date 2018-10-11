@@ -1,0 +1,88 @@
+<de-title title="使用"></de-title>
+<view class='demo-icon'>
+  <view class='icon-box'>
+    <de-icon type="msnui" size='{{ size }}' color="{{ color }}"></de-icon>
+    <view class='icon-name'>msnui</view>
+  </view>
+  <view class='icon-box'>
+    <de-icon type="right" size='{{ size }}' color="{{ color }}"></de-icon>
+    <view class='icon-name'>right</view>
+  </view>
+  <view class='icon-box'>
+    <de-icon type="wrong" size='{{ size }}' color="{{ color }}"></de-icon>
+    <view class='icon-name'>wrong</view>
+  </view>
+  <view class='icon-box'>
+    <de-icon type="home" size='{{ size }}' color="{{ color }}"></de-icon>
+    <view class='icon-name'>home</view>
+  </view>
+  <view class='icon-box'>
+    <de-icon type="delete" size='{{ size }}' color="{{ color }}"></de-icon>
+    <view class='icon-name'>delete</view>
+  </view>
+  <view class='icon-box'>
+    <de-icon type="medal" size='{{ size }}' color="{{ color }}"></de-icon>
+    <view class='icon-name'>medal</view>
+  </view>
+  <view class='icon-box'>
+    <de-icon type="add" size='{{ size }}' color="{{ color }}"></de-icon>
+    <view class='icon-name'>add</view>
+  </view>
+  <view class='icon-box'>
+    <de-icon type="self" size='{{ size }}' color="{{ color }}"></de-icon>
+    <view class='icon-name'>self</view>
+  </view>
+  <view class='icon-box'>
+    <de-icon type="close" size='{{ size }}' color="{{ color }}"></de-icon>
+    <view class='icon-name'>close</view>
+  </view>
+  <view class='icon-box'>
+    <de-icon type="crown" size='{{ size }}' color="{{ color }}"></de-icon>
+    <view class='icon-name'>crown</view>
+  </view>
+  <view class='icon-box'>
+    <de-icon type="money" size='{{ size }}' color="{{ color }}"></de-icon>
+    <view class='icon-name'>money</view>
+  </view>
+  <view class='icon-box'>
+    <de-icon type="lock" size='{{ size }}' color="{{ color }}"></de-icon>
+    <view class='icon-name'>lock</view>
+  </view>
+  <view class='icon-box'>
+    <de-icon type="call" size='{{ size }}' color="{{ color }}"></de-icon>
+    <view class='icon-name'>call</view>
+  </view>
+  <view class='icon-box'>
+    <de-icon type="top" size='{{ size }}' color="{{ color }}"></de-icon>
+    <view class='icon-name'>top</view>
+  </view>
+  <view class='icon-box'>
+    <de-icon type="download" size='{{ size }}' color="{{ color }}"></de-icon>
+    <view class='icon-name'>download</view>
+  </view>
+  <view class='icon-box'>
+    <de-icon type="shop" size='{{ size }}' color="{{ color }}"></de-icon>
+    <view class='icon-name'>shop</view>
+  </view>
+  <view class='icon-box'>
+    <de-icon type="business" size='{{ size }}' color="{{ color }}"></de-icon>
+    <view class='icon-name'>business</view>
+  </view>
+  <view class='icon-box'>
+    <de-icon type="message" size='{{ size }}' color="{{ color }}"></de-icon>
+    <view class='icon-name'>message</view>
+  </view>
+  <view class='icon-box'>
+    <de-icon type="personal" size='{{ size }}' color="{{ color }}"></de-icon>
+    <view class='icon-name'>personal</view>
+  </view>
+  <view class='icon-box'>
+    <de-icon type="search" size='{{ size }}' color="{{ color }}"></de-icon>
+    <view class='icon-name'>search</view>
+  </view>
+  <view class='icon-box'>
+    <de-icon type="help" size='{{ size }}' color="{{ color }}"></de-icon>
+    <view class='icon-name'>help</view>
+  </view>
+
+</view>

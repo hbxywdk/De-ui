@@ -1,0 +1,5 @@
+<de-index-selector
+  indexData="{{ indexData }}"
+  bind:select="select"
+>
+</de-index-selector>

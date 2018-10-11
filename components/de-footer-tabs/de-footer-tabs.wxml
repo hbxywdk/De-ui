@@ -1,0 +1,11 @@
+<view class='flex-around de-footer-tabs'>
+  <view  wx:for="{{ config }}" wx:key="{{ index }}" bindtap='tab' data-index='{{ index }}'>
+    <view class='red-point' wx:if="{{ item.msg === true }}"></view>
+    <view class='red-number' wx:if="{{ item.msg >= 1 && item.msg !== true }}">{{ item.msg > 99 ? 99 : item.msg }}</view>
+    <image wx:if="{{ index === nowTab }}" style='width: {{ width }}rpx; height: {{ height }}rpx;' src='{{ item.activeIcon }}'></image>
+    <image wx:else style='width: {{ width }}rpx; height: {{ height }}rpx;' src='{{ item.icon }}'></image>
+    <view class='tab-name' style='color: {{ index === nowTab ? color : "#999" }};'>
+      {{ item.name }}
+    </view>
+  </view>
+</view>
