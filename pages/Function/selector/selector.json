@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "Selector",
-  "usingComponents": {
-    "de-selector": "/components/de-selector/de-selector"
-  }
-}

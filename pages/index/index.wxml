@@ -43,7 +43,7 @@
       普通单项选择（可配置）
       城市选择（默认提供城市数据、也可配置）
       多功能选择（可配置） -->
-      <de-list text="Selector 选择器" bindtap="go" data-link="/pages/Function/selector/selector"></de-list>
+      <de-list text="Filter 筛选器" bindtap="go" data-link="/pages/Function/filter/filter"></de-list>
       <!-- 局部下拉刷新，上拉加载 -->
       <de-list text="Scroller 滚动区域" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
     </de-list-group>

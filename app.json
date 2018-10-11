@@ -4,7 +4,7 @@
     "pages/Layout/list/list",
     "pages/Layout/flex/flex",
     "pages/Layout/title/title",
-    "pages/Function/selector/selector",
+    "pages/Function/filter/filter",
     "pages/Function/scroller/scroller",
     "pages/Layout/label/label",
     "pages/Base/button/button",

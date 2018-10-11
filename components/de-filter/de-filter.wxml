@@ -1,4 +1,4 @@
-<view class='warp-options'>
+<view class='warp-options' style='padding: {{ padding }}rpx 0;'>
   <!-- 标题 -->
   <view class='flex-center title-box' bindtap='switchOptions'>
     <view style='color: {{ openStatus || selectItem ? "red" : "#888" }};'>{{ optionsSet.title }}</view>
@@ -18,7 +18,7 @@
     </image>
   </view>
   <!-- 选项 -->
-  <view wx:if="{{ nowOption === optionsSet.name }}" class='select-options' style='top: {{ heightSetting }}rpx;'>
+  <view wx:if="{{ nowOption === optionsSet.name }}" class='select-options' style='top: {{ padding * 2 + 40 }}rpx;'>
     <view class='option-item' wx:for="{{ optionsSet.options }}" wx:key="{{ index }}">
       <view
         class='{{ item.disable ? "item-disable" : ""  }} {{ selectItem === item.value ? "item-select" : "" }}'
@@ -29,5 +29,9 @@
         {{ item.label }}
       </view>
     </view>
+  </view>
+  <!-- 遮罩 -->
+  <view class='filter-mask' style='top: {{ bottom }}px;'>
+  
   </view>
 </view>

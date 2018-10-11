@@ -8,9 +8,9 @@ Component({
    */
   properties: {
     // 高度，默认为80
-    heightSetting: {
+    padding: {
       type: Number,
-      value: 80,
+      value: 20,
     },
     // 当前激活的options（用于多个选择器组合使用时保持只有一个被激活）
     nowOption: {
@@ -25,10 +25,22 @@ Component({
     }
   },
 
+  ready () {
+    const query = wx.createSelectorQuery().in(this)
+    query.select('.warp-options').boundingClientRect(res => {
+      console.log(res.bottom)
+      this.setData({
+        bottom: res.bottom
+      })
+    }).exec()
+  },
+  
   /**
    * 组件的初始数据
    */
   data: {
+    bottom: 0, // 控件所在底边定位
+    showMask: false,
     openStatus: false, // 该组件的开关状态
     selectItem: null, // 当前选中项
   },

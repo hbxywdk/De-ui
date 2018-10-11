@@ -8,17 +8,21 @@
   >
     <view class='index-section' wx:for="{{ indexData }}" wx:key="{{ index }}">
       <view id="{{ index }}" class="index-name">{{ index }}</view>
-      <view 
-        class='index-item' 
-        wx:for-item="item2"
-        wx:for-index="index2"
-        wx:for="{{ item }}" 
-        wx:key="{{ index2 }}"
-        bindtap='itemClick'
-        data-item='{{ item2 }}'
-      >
-        {{ item2.name }}
+
+      <view class='item-box'>
+        <view 
+          class='index-item' 
+          wx:for-item="item2"
+          wx:for-index="index2"
+          wx:for="{{ item }}" 
+          wx:key="{{ index2 }}"
+          bindtap='itemClick'
+          data-item='{{ item2 }}'
+        >
+          {{ item2.name }}
+        </view>
       </view>
+
     </view>
   </scroll-view>
   <!-- indexBar -->

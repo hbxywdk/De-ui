@@ -9,8 +9,8 @@
 }
 .warp>view{
   width: 180rpx;
-  height: 110rpx;
-  line-height: 110rpx;
+  height: 85rpx;
+  line-height: 85rpx;
   text-align: center;
   color: #fff;
   font-size: 36rpx;

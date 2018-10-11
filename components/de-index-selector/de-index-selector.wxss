@@ -24,7 +24,10 @@
   padding: 0 10rpx 0 0;
 }
 .index-section{
-  border-bottom: 1rpx solid #ccc;
+  border-bottom: 1rpx solid #e5e5e5;
+}
+.item-box{
+  /* padding-left: 20rpx; */
 }
 .index-name{
   font-size: 36rpx;
@@ -37,7 +40,7 @@
   font-size: 26rpx;
   height: 90rpx;
   line-height: 90rpx;
-  border-top: 1rpx solid #ccc;
+  border-top: 1rpx solid #e5e5e5;
   padding-left: 30rpx;
 }
 .bar-active{

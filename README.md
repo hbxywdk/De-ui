@@ -28,7 +28,7 @@ A UI library for wechat mini program
     - [x] IndexSelector 索引选择器
     - [ ] SlideDel 滑动删除
     - [ ] Range 滑块
-    - [ ] Selector 选择器
+    - [ ] Filter 筛选器
     - [ ] Scroller 滚动区域
 - 提示
     - [x] TopNotice 顶部公告栏
@@ -49,6 +49,7 @@ A UI library for wechat mini program
     - 倒计时 CountDown
     - 滚动公告 RollingBulletin
     - 轮播图的封装 Swiper
+    - 迭代Filter 筛选器
 - 提示
     - 弹出式 Loading
     - 弹出式密码输入框 Password

@@ -1,11 +1,13 @@
 .goods-lists{
   height:150rpx;
-  background:#eee;
-  border-bottom:6rpx solid #fff;
+  line-height:150rpx;
+  background:#efefef;
+  border-bottom:1px solid #fff;
+  font-size: 36rpx;
+  text-align: center;
 }
 .options-box{
   width: 100%;
-  height: 80rpx;
   border-bottom: 1rpx solid #efefef;
   position: relative;
   /* 下拉选项是根据，最外层包裹view定位的，必须给上相对定位 */

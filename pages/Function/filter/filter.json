@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Filter",
+  "usingComponents": {
+    "de-search": "/components/de-search/de-search",
+    "de-filter": "/components/de-filter/de-filter"
+  }
+}

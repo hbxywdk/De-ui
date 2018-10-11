@@ -1,12 +1,13 @@
 @import '/app.wxss';
-
+.warp-options{
+  height: 40rpx;
+}
 .title-box{
   height: 100%;
   text-align: center;
   font-size: 28rpx;
   color: #777;
 }
-
 .arrow{
   width: 14rpx;
   height: 8rpx;
@@ -32,4 +33,14 @@
 }
 .item-select{
   color: red;
+}
+.filter-mask{
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.2;
 }
