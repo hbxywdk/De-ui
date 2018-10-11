@@ -1,0 +1,1 @@
+<view class="de-icon iconfont {{'icon-' + type}}" style="font-size: {{ size }};color: {{ color }};"></view>

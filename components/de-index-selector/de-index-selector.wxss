@@ -1,0 +1,64 @@
+.index-warp{
+  position: relative;
+}
+.warp-index-bar{
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 50rpx;
+}
+.index-bar-box{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.index-bar{
+  height: 20px;
+  line-height: 20px;
+  font-size: 28rpx;
+  width: 50rpx;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 10rpx 0 0;
+}
+.index-section{
+  border-bottom: 1rpx solid #ccc;
+}
+.index-name{
+  font-size: 36rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  padding-left: 30rpx;
+  font-weight: bold;
+}
+.index-item{
+  font-size: 26rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-top: 1rpx solid #ccc;
+  padding-left: 30rpx;
+}
+.bar-active{
+  color: #2ccaf4;
+}
+.center-index{
+  width: 140rpx;
+  height: 140rpx;
+  line-height: 140rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -70rpx;
+  margin-left: -70rpx;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 36rpx;
+}
+.center-index.hide{
+  display: none;
+}

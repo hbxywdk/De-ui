@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "de-ui",
+  "usingComponents": {
+    "de-title": "/components/de-title/de-title",
+    "de-index-selector": "/components/de-index-selector/de-index-selector"
+  }
+}
