@@ -14,10 +14,9 @@
       <de-list text="Label 标签 ~" bindtap="go" data-link="/pages/Layout/label/label"></de-list>
       <de-list text="List 列表 ~" bindtap="go" data-link="/pages/Layout/list/list"></de-list>
       <de-list text="FooterTabs 底部标签 ~" bindtap="go" data-link="/pages/Layout/footerTabs/footerTabs"></de-list>
+      <de-list text="Line 分割线 ~" bindtap="go" data-link="/pages/Layout/line/line"></de-list>
       <!-- 用swiper实现左右滑动 -->
       <de-list text="SwiperTabs 滑动标签" bindtap="go" data-link="/pages/Layout/list/list"></de-list>
-      <de-list text="Line 分割线 ~" bindtap="go" data-link="/pages/Layout/line/line"></de-list>
-      
     </de-list-group>
   </de-label>
 
@@ -25,14 +24,20 @@
     <!-- 表单都需要禁用配置 -->
     <de-list-group>
       <de-list text="Input 输入框 ~" bindtap="go" data-link="/pages/Form/input/input"></de-list>
+      <de-list text="Swicth 开关 ~" bindtap="go" data-link="/pages/Form/swicth/swicth"></de-list>
       <de-list text="Radio 单选" bindtap="go" data-link="/pages/Form/input/input"></de-list>
       <de-list text="Checkbox 多选 " bindtap="go" data-link="/pages/Form/input/input"></de-list>
-      <de-list text="Swicth 开关 ~" bindtap="go" data-link="/pages/Form/swicth/swicth"></de-list>
     </de-list-group>
   </de-label>
   
   <de-label title="功能">
     <de-list-group>
+      <de-list text="Search 搜索 ~" bindtap="go" data-link="/pages/Function/search/search"></de-list>
+      <de-list text="Progress 进度条 ~" bindtap="go" data-link="/pages/Function/progress/progress"></de-list>
+      <de-list text="IndexSelector 索引选择器 ~" bindtap="go" data-link="/pages/Function/indexSelector/indexSelector"></de-list>
+      <!-- 类iOS滑动删除（可自定义滑出按钮） -->
+      <de-list text="SlideDel 滑动删除" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
+      <de-list text="Range 滑块 !" bindtap="go" data-link="/pages/Function/range/range"></de-list>
       <!-- 选择器（可多个组合在一起）：
       普通单项选择（可配置）
       城市选择（默认提供城市数据、也可配置）
@@ -40,13 +45,6 @@
       <de-list text="Selector 选择器" bindtap="go" data-link="/pages/Function/selector/selector"></de-list>
       <!-- 局部下拉刷新，上拉加载 -->
       <de-list text="Scroller 滚动区域" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
-      <de-list text="IndexSelector 索引选择器 ~" bindtap="go" data-link="/pages/Function/indexSelector/indexSelector"></de-list>
-      <!-- 类iOS滑动删除（可自定义滑出按钮） -->
-      <de-list text="SlideDel 滑动删除" bindtap="go" data-link="/pages/Function/scroller/scroller"></de-list>
-      <de-list text="Range 滑块 !" bindtap="go" data-link="/pages/Function/range/range"></de-list>
-      <de-list text="Search 搜索 ~" bindtap="go" data-link="/pages/Function/search/search"></de-list>
-      <de-list text="Progress 进度条 ~" bindtap="go" data-link="/pages/Function/progress/progress"></de-list>
-      
     </de-list-group>
   </de-label>
 
