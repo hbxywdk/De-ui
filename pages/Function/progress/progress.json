@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "de-ui",
+  "navigationBarTitleText": "Progress",
   "usingComponents": {
     "de-title": "/components/de-title/de-title",
     "de-progress": "/components/de-progress/de-progress"

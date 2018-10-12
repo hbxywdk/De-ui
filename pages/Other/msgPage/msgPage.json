@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "Image",
+  "navigationBarTitleText": "MsgPage",
   "usingComponents": {
     "de-title": "/components/de-title/de-title",
     "de-button": "/components/de-button/de-button"

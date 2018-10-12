@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "de-ui",
+  "navigationBarTitleText": "Range",
   "usingComponents": {
     "de-title": "/components/de-title/de-title",
     "de-range": "/components/de-range/de-range"

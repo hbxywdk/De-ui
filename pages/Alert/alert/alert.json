@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "de-ui",
+  "navigationBarTitleText": "Alert",
   "usingComponents": {
     "de-title": "/components/de-title/de-title",
     "de-alert": "/components/de-alert/de-alert",

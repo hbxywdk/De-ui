@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "de-ui",
+  "navigationBarTitleText": "topNotice",
   "usingComponents": {
     "de-title": "/components/de-title/de-title",
     "de-top-notice": "/components/de-top-notice/de-top-notice"
