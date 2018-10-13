@@ -1,12 +1,11 @@
 .warp-range{
   padding: 18px 0;
-  background: #efefef;
 }
 .de-range{
   position: relative;
   height: 1rpx;
   background: #333;
-  margin: 0 35px;
+  margin: 0 40px;
 }
 .min, .max{
   position: absolute;
@@ -18,10 +17,10 @@
   text-align: center;
 }
 .min{
-  left: -28px;
+  left: -34px;
 }
 .max{
-  right: -28px;
+  right: -34px;
 }
 .de-bar{
   width: 23px;
@@ -31,4 +30,7 @@
   position: absolute;
   top: -12px;
   box-shadow: 0 2px 5px #aaa;
+}
+.disabled{
+  background: #efefef;
 }

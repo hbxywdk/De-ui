@@ -1,14 +1,13 @@
-暂时搁置
 <view class='warp-range'>
-  <view class='de-range'>
+  <view class='de-range' style='background: {{ lineColor }};'>
     <view class='min'>{{ min }}</view>
     <view class='max'>{{ max }}</view>
     <!-- 高亮线 -->
     <view class='de-range-light'></view>
     <!-- 滑块 -->
     <view 
-      class='de-bar' 
-      style='left: {{ minLeft }}px;'
+      class='de-bar'
+      style='margin-left: -11rpx;left: {{ minLeft }}px;'
       bindtouchstart='touchStart' 
       bindtouchmove='touchMove' 
       bindtouchend='touchEnd'
@@ -16,4 +15,4 @@
     </view>
   </view>
 </view>
-{{ minLeft }}
+<!-- {{ value }} -->

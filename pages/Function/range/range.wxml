@@ -1,4 +1,24 @@
 <de-title title="基本"></de-title>
 <view class='demo'>
-  <de-range></de-range>
+  <de-range min="0" max="100" bind:change="change1"></de-range>
+  {{ val1 }}
+</view>
+<de-title title="范围"></de-title>
+<view class='demo'>
+  <de-range min="50" max="60" bind:change="change2"></de-range>
+  {{ val2 }}
+</view>
+<de-title title="自定义颜色"></de-title>
+<view class='demo'>
+  <de-range min="0" max="100" lineColor="#f20" bind:change="change3"></de-range>
+  {{ val3 }}
+</view>
+<de-title title="初始值"></de-title>
+<view class='demo'>
+  <de-range min="0" max="100" value="45" bind:change="change4"></de-range>
+  {{ val4 }}
+</view>
+<de-title title="禁用"></de-title>
+<view class='demo'>
+  <de-range min="0" max="100" disabled></de-range>
 </view>
