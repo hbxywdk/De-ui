@@ -29,6 +29,12 @@
         {{ item.label }}
       </view>
     </view>
+    <view class='flex-between number-range' wx:if="{{ optionsSet.hasNumberRegion }}">
+      <view><input class='range-input' type='number'></input>元</view>
+      <view> - </view>
+      <view><input class='range-input' type='number'></input>元</view>
+      <view class="range-button">确定</view>
+    </view>
   </view>
   <!-- 遮罩 -->
   <view class='filter-mask' style='top: {{ bottom }}px;' wx:if="{{ openStatus }}"></view>
