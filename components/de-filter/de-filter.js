@@ -42,6 +42,8 @@ Component({
     bottom: 0, // 控件所在底边定位
     openStatus: false, // 该组件的开关状态
     selectItem: null, // 当前选中项
+    min: '',
+    max: ''
   },
 
   /**
@@ -55,14 +57,14 @@ Component({
       }
     },
     // 开关
-    switchOptions() {
+    switchOptions () {
       this.setData({ openStatus: !this.data.openStatus })
       const target = this.properties.optionsSet.name === this.properties.nowOption ? '' : this.properties.optionsSet.name
       this.triggerEvent("changeTarget", { target })
       console.log('开关状态', this.data.openStatus)
     },
     // 选项选中
-    optionSelect(e) {
+    optionSelect (e) {
       const data = e.currentTarget.dataset
       console.log('选中事件', data)
       if (data.disable) return
@@ -74,6 +76,23 @@ Component({
         selectItem: data.value
       })
       this.triggerEvent("changeTarget", { target: '' })
+    },
+    minChange(e) {
+      this.setData({
+        min: e.detail.value
+      })
+    },
+    maxChange(e) {
+      this.setData({
+        max: e.detail.value
+      })
+    },
+    rangeSubmit() {
+      console.log(this.data.min, this.data.max)
+      this.triggerEvent("rangeChange", { name: this.properties.optionsSet.name, min: this.data.min, max: this.data.max })
+      this.triggerEvent("changeTarget", { target: '' })
+      
     }
-  }
+  },
+
 })

@@ -58,6 +58,7 @@
   display: inline-block;
   vertical-align: middle;
   margin-right: 20rpx;
+  text-align: left;
 }
 .range-button{
   width: 110rpx;
