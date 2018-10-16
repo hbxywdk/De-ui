@@ -40,7 +40,7 @@ Component({
    */
   data: {
     bottom: 0, // 控件所在底边定位
-    openStatus: false, // 该组件的开关状态
+    openStatus: false, // 该组件的开关状态 mask
     selectItem: null, // 当前选中项
     min: '',
     max: ''
@@ -73,7 +73,9 @@ Component({
       // 关闭已打开选项 & 设置选中项
       this.setData({
         openStatus: false,
-        selectItem: data.value
+        selectItem: data.value,
+        min: '',
+        max: ''
       })
       this.triggerEvent("changeTarget", { target: '' })
     },
@@ -89,6 +91,10 @@ Component({
     },
     rangeSubmit() {
       console.log(this.data.min, this.data.max)
+      this.setData({
+        selectItem: 'range', // 当前选中项
+        openStatus: false,
+      })
       this.triggerEvent("rangeChange", { name: this.properties.optionsSet.name, min: this.data.min, max: this.data.max })
       this.triggerEvent("changeTarget", { target: '' })
       

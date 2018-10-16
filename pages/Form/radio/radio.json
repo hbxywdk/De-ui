@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Radio",
+  "usingComponents": {
+    "de-title": "/components/de-title/de-title",
+    "de-radio": "/components/de-radio/de-radio"
+  }
+}

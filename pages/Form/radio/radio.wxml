@@ -1,0 +1,4 @@
+<de-title title="基本"></de-title>
+<de-radio options="{{ options1 }}" bind:change="radioChange"></de-radio>
+<de-title title="禁用选项"></de-title>
+<de-radio options="{{ options2 }}" bind:change="radioChange"></de-radio>

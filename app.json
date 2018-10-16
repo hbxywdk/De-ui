@@ -23,7 +23,8 @@
     "pages/Function/range/range",
     "pages/Base/icon/icon",
     "pages/Function/indexSelector/indexSelector",
-    "pages/Base/flex/flex"
+    "pages/Base/flex/flex",
+    "pages/Form/radio/radio"
   ],
   "window": {
     "backgroundTextStyle": "light",

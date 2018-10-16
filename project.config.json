@@ -36,7 +36,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 17,
 			"list": [
 				{
 					"id": -1,
@@ -138,6 +138,12 @@
 					"id": -1,
 					"name": "indexSelector",
 					"pathName": "pages/Function/indexSelector/indexSelector",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "radio",
+					"pathName": "pages/Form/radio/radio",
 					"query": ""
 				}
 			]
