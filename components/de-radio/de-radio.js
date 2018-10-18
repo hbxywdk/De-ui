@@ -18,15 +18,27 @@ Component({
   },
 
   ready () {
-    // 未传默认项
+    // 默认选中第一项
     if (!this.properties.select) {
-      this.setData({
-        selectItem: this.properties.options[0].value
+      this.setDafaultItem(0)
+    } else {
+      const item = this.properties.options.filter((e, i) => {
+        return e.value === this.properties.select
       })
+      this.setData({
+        selectItem: item[0].value
+      })
+      this.triggerEvent('change', item[0])
     }
   },
 
   methods: {
+    setDafaultItem (index) {
+      this.setData({
+        selectItem: this.properties.options[index].value
+      })
+      this.triggerEvent('change', this.properties.options[index])
+    },
     select (e) {
       const item = e.currentTarget.dataset.item
       if (item.disabled) return 
