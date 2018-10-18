@@ -20,15 +20,15 @@ A UI library for wechat mini program
 - 表单
     - [x] Input 输入框
     - [x] Swicth 开关
-    - [ ] Radio 单选
+    - [x] Radio 单选
     - [ ] Checkbox 多选
 - 功能
     - [x] Search 搜索
     - [x] Progress 进度条
     - [x] IndexSelector 索引选择器
     - [ ] SlideDel 滑动删除
-    - [ ] Range 滑块
-    - [ ] Filter 筛选器
+    - [x] Range 滑块
+    - [x] Filter 筛选器
     - [ ] Scroller 滚动区域
 - 提示
     - [x] TopNotice 顶部公告栏
