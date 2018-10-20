@@ -24,7 +24,8 @@
     "pages/Base/icon/icon",
     "pages/Function/indexSelector/indexSelector",
     "pages/Base/flex/flex",
-    "pages/Form/radio/radio"
+    "pages/Form/radio/radio",
+    "pages/Form/checkbox/checkbox"
   ],
   "window": {
     "backgroundTextStyle": "light",

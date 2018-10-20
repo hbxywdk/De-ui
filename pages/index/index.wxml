@@ -27,7 +27,7 @@
       <de-list text="Input 输入框 ~" bindtap="go" data-link="/pages/Form/input/input"></de-list>
       <de-list text="Swicth 开关 ~" bindtap="go" data-link="/pages/Form/swicth/swicth"></de-list>
       <de-list text="Radio 单选" bindtap="go" data-link="/pages/Form/radio/radio"></de-list>
-      <de-list text="Checkbox 多选 " bindtap="go" data-link="/pages/Form/input/input"></de-list>
+      <de-list text="Checkbox 多选 " bindtap="go" data-link="/pages/Form/checkbox/checkbox"></de-list>
     </de-list-group>
   </de-label>
   

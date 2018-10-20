@@ -36,7 +36,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 17,
+			"current": 18,
 			"list": [
 				{
 					"id": -1,
@@ -145,6 +145,11 @@
 					"name": "radio",
 					"pathName": "pages/Form/radio/radio",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "checkbox",
+					"pathName": "pages/Form/checkbox/checkbox"
 				}
 			]
 		}

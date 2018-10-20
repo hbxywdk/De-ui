@@ -1,0 +1,11 @@
+<view wx:for="{{ options }}" wx:key="{{ index }}">
+  <view 
+    class='radio-item' 
+    style='{{ (index + 1) === options.length ? "border-bottom: 1rpx solid #efefef;" : "" }}'
+    bindtap='select'
+    data-item='{{ item }}'
+  >
+    <view class='{{ item.disabled ? "disabled-name" : "" }}'>{{ item.name }}</view>
+    <view class='icon-box {{ selectItem === item.value ? "select" : "" }}'></view>
+  </view>
+</view>

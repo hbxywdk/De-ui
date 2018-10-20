@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "checkbox",
+  "usingComponents": {
+    "de-title": "/components/de-title/de-title",
+    "de-checkbox": "/components/de-checkbox/de-checkbox"
+  }
+}

@@ -1,0 +1,52 @@
+@import '/app.wxss';
+
+.radio-item{
+  font-size: 28rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  padding: 0 30rpx;
+  border-top: 1rpx solid #efefef;
+  box-sizing: border-box;
+  position: relative;
+  color: #444;
+}
+.icon-box{
+  width: 46rpx;
+  height: 46rpx;
+  position: absolute;
+  right: 30rpx;
+  top: 50%;
+  margin-top: -23rpx;
+  background: #dfdfdf;
+  border-radius: 50%;
+}
+.icon-box::before{
+  content: ' ';
+  display: block;
+  background: #fff;
+  width: 22rpx;
+  height: 5rpx;
+  /* border-radius: 2rpx; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-6rpx, -1rpx, 0) rotate(-45deg);
+}
+.icon-box::after{
+  content: ' ';
+  display: block;
+  background: #fff;
+  width: 12rpx;
+  height: 5rpx;
+  /* border-radius: 2rpx; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-10rpx, 3rpx, 0) rotate(45deg);
+}
+.icon-box.select{
+  background: #2ccaf4;
+}
+.disabled-name{
+  color: #ccc;
+}
