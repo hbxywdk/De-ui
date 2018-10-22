@@ -15,6 +15,13 @@ Page({
     ],
     val: ['1', '3']
   },
+  onLoad () {
+    setTimeout(() => {
+      this.setData({
+        val: ["1"]
+      })
+    }, 2000)
+  },
   radioChange(e) {
     console.log(e.detail)
   }

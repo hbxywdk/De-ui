@@ -9,7 +9,8 @@ Component({
     // 默认选中项
     select: {
       type: Array,
-      value: []
+      value: [],
+      observer: 'setDafaultItem'
     }
   },
 
