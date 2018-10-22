@@ -14,36 +14,43 @@ Component({
   },
 
   data: {
-    selectItem: ''
+    selectItem: {}
   },
 
   ready() {
-    // 默认选中第一项
-    if (!this.properties.select) {
-      this.setDafaultItem(0)
-    } else {
-      const item = this.properties.options.filter((e, i) => {
-        return e.value === this.properties.select
-      })
-      this.setData({
-        selectItem: item[0].value
-      })
-      this.triggerEvent('change', item[0])
+    // console.log(this.properties.options, '--', this.properties.select)
+    if (Array.isArray(this.properties.select) && this.properties.select.length) {
+      this.setDafaultItem()
     }
   },
 
   methods: {
     setDafaultItem(index) {
+      const select = this.properties.select
+      const options = this.properties.options
+      const obj = {}
+      for(let i = 0; i < select.length; i++){
+        for (let j = 0; j < options.length; j++) {
+          (options[j].value === select[i] && !options[j].disabled) && (obj[select[i]] = options[j].value)
+        }
+      }
+      // console.warn(obj)
       this.setData({
-        selectItem: this.properties.options[index].value
+        selectItem: obj
       })
-      this.triggerEvent('change', this.properties.options[index])
+      this.triggerEvent('change', obj)
     },
     select(e) {
       const item = e.currentTarget.dataset.item
       if (item.disabled) return
-      this.setData({ selectItem: item.value })
-      this.triggerEvent('change', item)
+      const selectItem = this.data.selectItem
+      if (selectItem[item.value]){
+        delete selectItem[item.value]
+      } else {
+        selectItem[item.value] = item.value
+      }
+      this.setData({ selectItem: selectItem })
+      this.triggerEvent('change', selectItem)
     }
   }
 })

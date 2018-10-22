@@ -1,4 +1,4 @@
 <de-title title="基本"></de-title>
 <de-checkbox options="{{ options1 }}" bind:change="radioChange"></de-checkbox>
 <de-title title="禁用选项"></de-title>
-<de-checkbox options="{{ options2 }}" select="3" bind:change="radioChange"></de-checkbox>
+<de-checkbox options="{{ options2 }}" select="{{ val }}" bind:change="radioChange"></de-checkbox>
