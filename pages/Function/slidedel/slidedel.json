@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Progress",
+  "usingComponents": {
+    "de-title": "/components/de-title/de-title",
+    "de-slidedel": "/components/de-slidedel/de-slidedel"
+  }
+}

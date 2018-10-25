@@ -25,7 +25,8 @@
     "pages/Function/indexSelector/indexSelector",
     "pages/Base/flex/flex",
     "pages/Form/radio/radio",
-    "pages/Form/checkbox/checkbox"
+    "pages/Form/checkbox/checkbox",
+    "pages/Function/slidedel/slidedel"
   ],
   "window": {
     "backgroundTextStyle": "light",
