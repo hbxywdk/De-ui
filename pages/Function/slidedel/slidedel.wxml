@@ -1,5 +1,12 @@
+<de-title title="使用"></de-title>
 <de-slidedel bind:del="delItem">
   <view class='demo-del'>
     这是一条数据
+  </view>
+</de-slidedel>
+<de-title title="禁用"></de-title>
+<de-slidedel disabled bind:del="delItem">
+  <view class='demo-del'>
+    这是禁用数据
   </view>
 </de-slidedel>
