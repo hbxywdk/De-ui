@@ -1,4 +1,4 @@
-<de-slidedel>
+<de-slidedel bind:del="delItem">
   <view class='demo-del'>
     这是一条数据
   </view>

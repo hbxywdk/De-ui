@@ -1,12 +1,14 @@
 <view>
 
-  <view class='del-warp' style='transform: translateX({{ translateX }}px);'>
+  <view 
+    class='del-warp'
+    style='transform: translateX({{ translateX }}px);transition: transform {{ moveDuration }}s ease-in;'>
     <!-- slot区域 -->
     <view class='slot-box' bindtouchstart='start' bindtouchmove='move' bindtouchend='end'>
       <slot></slot>
     </view>
     <!-- 操作按钮 -->
-    <view class=' flex-center work-area'>
+    <view class='flex-center work-area' bindtap='delClick'>
       删除
     </view>
   </view>
