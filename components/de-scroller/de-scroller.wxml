@@ -45,10 +45,10 @@
     </block>
   </view>
   <!-- 
-    撑高度块：
+    fill-box撑高度块：
     若，内容高度，小于scroll-view高度，不会有滚动条产生，
     组件的下拉刷新loading是不会滚动到顶部隐藏的，
-    fill-box撑够高度，让loading隐藏
+    也就无法使用下拉刷新与上拉加载
    -->
   <view class="fill-box" style="height:{{fillHeight + 'px'}}"></view>
 </scroll-view>

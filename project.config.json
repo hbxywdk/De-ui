@@ -36,7 +36,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 19,
+			"current": 21,
 			"list": [
 				{
 					"id": -1,
@@ -155,7 +155,19 @@
 				{
 					"id": -1,
 					"name": "slidedel",
-					"pathName": "pages/Function/slidedel/slidedel"
+					"pathName": "pages/Function/slidedel/slidedel",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "滚动区域",
+					"pathName": "pages/Function/scroller/scroller",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "swiperBoxs",
+					"pathName": "pages/Layout/swiperBoxs/swiperBoxs"
 				}
 			]
 		}

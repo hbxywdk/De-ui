@@ -10,6 +10,8 @@
 }
 .demo-lists{
   height: 150rpx;
-  background: #ccc;
-  border-bottom: 6rpx solid #fff;
+  line-height: 150rpx;
+  text-align: center;
+  background: #fff;
+  border-bottom: 2rpx solid #efefef;
 }

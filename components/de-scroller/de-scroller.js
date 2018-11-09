@@ -44,7 +44,7 @@ Component({
   },
 
   ready() {
-    // 修改撑高度view的高度
+    // 计算撑高度view的高度
     let query = wx.createSelectorQuery().in(this);
     query.select('.scroller-wapper').fields({
       size: true,
@@ -108,19 +108,20 @@ Component({
     },
     // 触摸开始
     onTouchStart: function (e) {
+      console.log('touch开始')
       this.setData({
         touching: 1 // 正在触摸状态中
       })
     },
     // 触摸结束
     onTouchEnd: function (e) {
-      console.log('1')
+      console.log('touch结束')
       this.setData({ touching: 0 }) // 触摸状态更改为未触摸
       const status = this.data.pullDownStatus
 
       // 状态0，回到原点
       if (status === 0) {
-        setTimeout(() => {// touchEnd触发，等待滚动动画停止后再继续
+        setTimeout(() => { // touchEnd触发，等待滚动动画停止后再继续
           const newStatus = this.data.pullDownStatus
           if (newStatus !== status && (newStatus == 2 || newStatus == 1)) {
             this.setData({
@@ -154,7 +155,7 @@ Component({
     },
     // 刷新（onTouchEnd后触发onRefresh）
     onRefresh(e) {
-      console.log('2')
+      console.log('触发刷新')
       const status = this.data.pullDownStatus
       if (!this.data.touching) {
         if (status === 2) {

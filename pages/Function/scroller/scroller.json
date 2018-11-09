@@ -1,6 +1,7 @@
 {
   "navigationBarTitleText": "Scroller",
   "usingComponents": {
+    "de-title": "/components/de-title/de-title",
     "de-scroller": "/components/de-scroller/de-scroller"
   }
 }

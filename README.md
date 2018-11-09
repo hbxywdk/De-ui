@@ -16,20 +16,20 @@ A UI library for wechat mini program
     - [x] List 列表
     - [x] FooterTabs 底部标签
     - [x] Line 分割线
-    - [ ] SwiperTabs 滑动标签
+
 - 表单
     - [x] Input 输入框
     - [x] Swicth 开关
     - [x] Radio 单选
-    - [ ] Checkbox 多选
+    - [x] Checkbox 多选
 - 功能
     - [x] Search 搜索
     - [x] Progress 进度条
     - [x] IndexSelector 索引选择器
-    - [ ] SlideDel 滑动删除
+    - [x] SlideDel 滑动删除
     - [x] Range 滑块
     - [x] Filter 筛选器
-    - [ ] Scroller 滚动区域
+    - [x] Scroller 滚动区域
 - 提示
     - [x] TopNotice 顶部公告栏
     - [x] Alert 弹窗
@@ -41,6 +41,7 @@ A UI library for wechat mini program
 #### Future
 - 布局
     - 宫格布局 Grid
+    - SwiperTabs 滑动标签
 - 功能
     - 步骤条 Steps
     - 吸顶容器 Sticky

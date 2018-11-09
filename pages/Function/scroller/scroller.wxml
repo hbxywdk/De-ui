@@ -1,5 +1,5 @@
+<de-title title="使用"></de-title>
 <de-scroller 
-  style="display:{{ hasData ? 'block' : 'none' }};"
   scroll-height="{{ scrollerHeight }}" 
   refreshContrast="{{ refreshing }}" 
   loadingMoreContrast="{{ loadingMore }}" 
@@ -8,5 +8,7 @@
   bindloadmore="loadMoreRenMai" 
   nomoreText="没有更多了"
 >
-  <view class='demo-lists' wx:for="{{ renMaiLists }}" wx:key="{{ index }}">{{ item }}</view>
+  <view class='demo-lists' wx:for="{{ renMaiLists }}" wx:key="{{ index }}">
+    Item{{ item }}
+  </view>
 </de-scroller>
