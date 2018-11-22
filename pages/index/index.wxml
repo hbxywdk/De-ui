@@ -21,7 +21,7 @@
     </de-list-group>
   </de-label>
 
-  <de-label title="表单">
+  <de-label title="表单 -">
     <de-list-group>
       <de-list text="Input 输入框" bindtap="go" data-link="/pages/Form/input/input"></de-list>
       <de-list text="Swicth 开关" bindtap="go" data-link="/pages/Form/swicth/swicth"></de-list>
