@@ -2,5 +2,7 @@
 <de-top-notice text="有关国庆节放假通知"></de-top-notice>
 <de-title title="可关闭"></de-title>
 <de-top-notice text="有关国庆节放假通知" closeable></de-top-notice>
+<de-title title="其他颜色"></de-title>
+<de-top-notice text="有关国庆节放假通知" textColor="#fff" bgColor="#2ccaf4"></de-top-notice>
 <!-- <de-title title="可滚动"></de-title>
 <de-top-notice text="有关国庆节放假通知有关国庆节放假通知有关国庆节" closeable roll></de-top-notice> -->

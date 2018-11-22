@@ -6,6 +6,11 @@ Component({
       type: String,
       value: ''
     },
+    // 文字颜色
+    textColor: {
+      type: String,
+      value: '#e66b4a'
+    },
     // 背景色
     bgColor: {
       type: String,
@@ -17,15 +22,15 @@ Component({
       value: false
     },
     // 文字内容是否滚动
-    roll: {
-      type: Boolean,
-      value: false
-    }
+    // roll: {
+    //   type: Boolean,
+    //   value: false
+    // }
   },
 
   // ready后获取元素信息
   ready () {
-    this.properties.roll && (this.startRoll())
+    // this.properties.roll && (this.startRoll())
   },
 
   data: {
@@ -36,8 +41,8 @@ Component({
     close () {
       this.setData({ show: false })
     },
-    startRoll () {
-      console.log('Roll')
-    }
+    // startRoll () {
+    //   console.log('Roll')
+    // }
   }
 })

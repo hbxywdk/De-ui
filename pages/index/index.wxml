@@ -46,13 +46,13 @@
 
   <de-label title="提示">
     <de-list-group>
-      <!-- 类支付宝顶部通告（可滚动） -->
+      <!-- 类支付宝顶部通告 -->
       <de-list text="TopNotice 顶部公告栏" bindtap="go" data-link="/pages/Alert/topNotice/topNotice"></de-list>
       <de-list text="Alert 弹窗" bindtap="go" data-link="/pages/Alert/alert/alert"></de-list>
     </de-list-group>
   </de-label>
 
-  <de-label title="其他">
+  <de-label title="其他 -">
     <de-list-group>
       <de-list text="Loading 加载" bindtap="go" data-link="/pages/Other/loading/loading"></de-list>
       <de-list text="MsgPage 页面提示" bindtap="go" data-link="/pages/Other/msgPage/msgPage"></de-list>

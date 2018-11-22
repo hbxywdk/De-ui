@@ -17,7 +17,6 @@
     "pages/Form/swicth/swicth",
     "pages/Alert/topNotice/topNotice",
     "pages/Other/msgPage/msgPage",
-    "page/de-msg-page/de-msg-page",
     "pages/Alert/alert/alert",
     "pages/Layout/footerTabs/footerTabs",
     "pages/Function/range/range",
@@ -26,7 +25,8 @@
     "pages/Base/flex/flex",
     "pages/Form/radio/radio",
     "pages/Form/checkbox/checkbox",
-    "pages/Function/slidedel/slidedel"
+    "pages/Function/slidedel/slidedel",
+    "de-page/de-msg-page/de-msg-page"
   ],
   "window": {
     "backgroundTextStyle": "light",

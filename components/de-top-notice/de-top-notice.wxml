@@ -1,7 +1,7 @@
 <view class="flex-between de-top-notice" style="background: {{ bgColor }};" wx:if="{{ show }}">
   <!-- 文字 -->
   <view class='de-text-content'>
-    <view class='de-text'>{{ text }}</view>
+    <view class='de-text' style="color: {{ textColor }};">{{ text }}</view>
   </view>
   <!-- 关闭 -->
   <view class="de-close" wx:if="{{ closeable }}" bindtap="close"></view>
