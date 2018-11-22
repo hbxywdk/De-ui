@@ -1,4 +1,3 @@
-// components/de-button/de-button.js
 Component({
   /**
    * 组件的属性列表
@@ -36,7 +35,6 @@ Component({
   },
 
   data: {
-
   },
 
   methods: {

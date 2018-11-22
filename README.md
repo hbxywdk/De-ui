@@ -1,4 +1,4 @@
-## de-ui
+## De-ui
 A UI library for wechat mini program 
 一个小程序的UI库  
 将自己写过的小程序组件集中起来，并新写一些常用的组件。
@@ -41,7 +41,7 @@ A UI library for wechat mini program
 #### Future
 - 布局
     - 宫格布局 Grid
-    - SwiperTabs 滑动标签
+    - SwiperBoxs 滑动盒
 - 功能
     - 步骤条 Steps
     - 吸顶容器 Sticky

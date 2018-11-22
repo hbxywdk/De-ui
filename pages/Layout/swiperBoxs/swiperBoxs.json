@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "SwiperBoxs",
-  "usingComponents": {
-    "de-title": "/components/de-title/de-title",
-    "de-swiper-boxs": "/components/de-swiper-boxs/de-swiper-boxs"
-  }
-}

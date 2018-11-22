@@ -26,8 +26,7 @@
     "pages/Base/flex/flex",
     "pages/Form/radio/radio",
     "pages/Form/checkbox/checkbox",
-    "pages/Function/slidedel/slidedel",
-    "pages/Layout/swiperBoxs/swiperBoxs"
+    "pages/Function/slidedel/slidedel"
   ],
   "window": {
     "backgroundTextStyle": "light",

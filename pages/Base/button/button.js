@@ -1,16 +1,4 @@
 Page({
-
-  data: {
-
-  },
-
-  onLoad: function (options) {
-
-  },
-
-  onShow: function () {
-
-  },
   // 按钮点击
   click () {
     wx.showToast({

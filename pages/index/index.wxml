@@ -1,6 +1,6 @@
 <view>
 
-  <de-label title="基础">
+  <de-label title="基础 -">
     <de-list-group>
       <de-list text="Button 按钮" bindtap="go" data-link="/pages/Base/button/button"></de-list>
       <de-list text="Icon 图标" bindtap="go" data-link="/pages/Base/icon/icon"></de-list>
@@ -8,7 +8,7 @@
     </de-list-group>
   </de-label>
 
-  <de-label title="布局">
+  <de-label title="布局 -">
     <de-list-group>
       <de-list text="Layout 栅格布局" bindtap="go" data-link="/pages/Layout/flex/flex"></de-list>
       <de-list text="Title 标题" bindtap="go" data-link="/pages/Layout/title/title"></de-list>
