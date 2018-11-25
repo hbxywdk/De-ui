@@ -1,0 +1,13 @@
+.logo{
+  width: 76px;
+  height: 76px;
+  display: block;
+  margin: 100rpx auto 15rpx;
+  border-radius: 50%;
+}
+.name{
+  text-align: center;
+  font-size: 35rpx;
+  margin-bottom: 100rpx;
+  color: #333;
+}

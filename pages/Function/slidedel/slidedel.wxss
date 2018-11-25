@@ -1,3 +1,7 @@
+.warp-del{
+  overflow: hidden;
+  max-width: 100%;
+}
 .demo-del{
   height: 110rpx;
   line-height: 110rpx;
