@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Switch",
+  "usingComponents": {
+    "de-title": "/components/de-title/de-title",
+    "de-switch": "/components/de-switch/de-switch"
+  }
+}

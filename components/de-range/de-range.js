@@ -3,10 +3,10 @@ Component({
 
   properties: {
     // 类别 single：单滑块 dual：双滑块（暂只做单滑块）
-    type: {
-      type: String,
-      value: 'single'
-    },
+    // type: {
+    //   type: String,
+    //   value: 'single'
+    // },
     // 范围最小值
     min: {
       type: Number,

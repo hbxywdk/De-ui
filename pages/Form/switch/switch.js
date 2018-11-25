@@ -13,7 +13,7 @@ Page({
     //   this.setData({ status1: false })
     // }, 2000)
   },
-  swicthChange (e) {
+  switchChange (e) {
     // console.log(e)
     this.setData({ status1: e.detail.status })
   }

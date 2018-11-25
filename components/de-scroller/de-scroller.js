@@ -3,17 +3,17 @@ Component({
     // 数据是否加载完
     nomore: {
       type: Boolean,
-      value: false,
+      value: false
     },
-    // 数据加载完后锁显示的文字提示
+    // 没有更多数据后显示的文字提示
     nomoreText: {
       type: String,
-      value: '没有更多数据了',
+      value: '没有更多数据了'
     },
     // 下拉距离
     pullDownHeight: {
       type: Number,
-      value: 60,
+      value: 60
     },
     // scroll-view高度
     scrollHeight: {
@@ -24,14 +24,14 @@ Component({
     refreshContrast: {
       type: Boolean,
       value: false,
-      observer: 'onRefreshFinished',
+      observer: 'onRefreshFinished'
     },
     // 加载更多状态对比
     loadingMoreContrast: {
       type: Boolean,
       value: false,
-      observer: 'onLoadMoreFinished',
-    },
+      observer: 'onLoadMoreFinished'
+    }
   },
 
   data: {

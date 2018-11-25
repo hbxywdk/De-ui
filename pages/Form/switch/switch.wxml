@@ -1,8 +1,8 @@
 <de-title title="使用"></de-title>
 <view class='switch-demo'>
-  <de-swicth status="{{ status1 }}" bind:change="swicthChange"></de-swicth>
+  <de-switch status="{{ status1 }}" bind:change="switchChange"></de-switch>
 </view>
 <de-title title="禁用"></de-title>
 <view class='switch-demo'>
-  <de-swicth status="{{ status2 }}" disabled></de-swicth>
+  <de-switch status="{{ status2 }}" disabled></de-switch>
 </view>
