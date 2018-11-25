@@ -1,5 +1,7 @@
 ## De-ui
-<img src="./assets/img/logo.jpg" width="150" style="display: block; margin: 0 auto;">
+<p align="center">
+  <img src="./assets/img/logo.jpg" width="100" alt="De-ui logo">
+</p>
 
 一个小程序的UI库  
 集中整理一些自己写过的小程序组件，与一些常用的组件，方便以后使用。
