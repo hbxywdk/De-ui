@@ -1,6 +1,6 @@
 ## De-ui
 <p align="center">
-  <img src="./assets/img/logo.jpg" width="100" alt="De-ui logo">
+  <img style="border-radius: 50%;" src="./assets/img/logo.jpg" width="100" alt="De-ui logo">
 </p>
 
 一个小程序的UI库  
