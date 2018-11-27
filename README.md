@@ -6,6 +6,12 @@
 一个小程序的UI库  
 集中整理一些自己写过的小程序组件，与一些常用的组件，方便以后使用。
 
+### 预览：
+
+<p align="center">
+  <img src="./assets/img/wx_code.jpg" width="140" alt="wx_code">
+</p>
+
 ### 使用：
 
 #### 1、拉取代码
@@ -80,7 +86,7 @@ wx.navigateTo({
     - [x] [MsgPage 页面提示](./de-page/de-msg-page/README.md)
     - [x] [Image 图片](./components/de-image/README.md)
     
-### 之后要实现的组件
+### 未来要实现的组件
 - 布局
     - 宫格布局 Grid
     - SwiperBoxs 滑动盒
